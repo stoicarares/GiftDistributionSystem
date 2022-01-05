@@ -44,6 +44,7 @@ public final class Main {
      *          the arguments used to call the main method
      */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public static void main(final String[] args) {
         Checker.calculateScore();
 =======
@@ -53,10 +54,20 @@ public final class Main {
         if(!Files.exists(path)) {
             Files.createDirectories(path);
         }
+=======
+//    public static void main(final String[] args) {
+//        Checker.calculateScore();
+        public static void main(String[] args) throws IOException {
+            File directory = new File("./tests");
+            Path path = Paths.get("output");
+            if(!Files.exists(path)) {
+                Files.createDirectories(path);
+            }
+>>>>>>> Stashed changes
 
-        File outputDirectory = new File("output");
+            File outputDirectory = new File("output");
 
-        action("./tests/tes16.json", "dadwa");
+            action("./tests/tes16.json", "dadwa");
 //        for (File file : Objects.requireNonNull(directory.listFiles())) {
 //            String filepath = Constants.OUTPUT_PATH + file.getName();
 //            File out = new File(filepath);
@@ -66,6 +77,7 @@ public final class Main {
 //            }
 //        }
 //        Checker.calculateScore();
+<<<<<<< Updated upstream
     }
     public static void action(final String filePath1,
                               final String filePath2) throws IOException {
@@ -75,15 +87,27 @@ public final class Main {
             input = inputReader.readInput();
         } catch (IOException e) {
             e.printStackTrace();
+=======
+>>>>>>> Stashed changes
         }
-        assert input != null;
+        public static void action(final String filePath1,
+        final String filePath2) throws IOException {
+            InputReader inputReader = new InputReader("./tests/test2.json");
+            Input input = null;
+            try {
+                input = inputReader.readInput();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            assert input != null;
 
 //        Database.getDatabase().transferSantaBudgets(input.getAnnualChanges(), input.getSantaBudget());
-        Database.getDatabase().transferChildren(input.getInitialData().getChildren());
-        Database.getDatabase().transferGifts(input.getInitialData().getSantaGiftsList());
-        Database.getDatabase().transferAnnualChanges(input.getAnnualChanges());
-        Database.setSantaBudget(input.getSantaBudget());
+            Database.getDatabase().transferChildren(input.getInitialData().getChildren());
+            Database.getDatabase().transferGifts(input.getInitialData().getSantaGiftsList());
+            Database.getDatabase().transferAnnualChanges(input.getAnnualChanges());
+            Database.setSantaBudget(input.getSantaBudget());
 
+<<<<<<< Updated upstream
         for (Child child : Database.getDatabase().getChildren()) {
             ScoreStrategyFactory factory = new ScoreStrategyFactory();
             ScoreStrategy strategy = factory.createStrategy(child);
@@ -123,5 +147,45 @@ public final class Main {
 //            System.out.println(annualChange.getNewSantaBudget());
         }
 >>>>>>> Stashed changes
+=======
+            for (Child child : Database.getDatabase().getChildren()) {
+                ScoreStrategyFactory factory = new ScoreStrategyFactory();
+                ScoreStrategy strategy = factory.createStrategy(child);
+                strategy.getChildAverageScore(child);
+            }
+
+//        System.out.println(input);
+//        System.out.println(input.getAnnualChanges());
+            System.out.println(Database.getSantaBudget());
+//        System.out.println(Database.getDatabase().getChildren());
+            Invoker invoker = new Invoker();
+            invoker.execute(new SetAssignedBudgetCommand());
+//        invoker.execute(new IncreaseAgeCommand());
+            invoker.execute(new EliminateYoungAdultsCommand());
+            invoker.execute(new GiftDistributionCommand());
+//        Database.getDatabase().setChildrenBudget();
+            System.out.println(Database.getDatabase().getChildren());
+
+
+
+            for (InputAnnualChange annualChange:input.getAnnualChanges()) {
+                invoker.execute(new IncreaseAgeCommand());
+                invoker.execute(new EliminateYoungAdultsCommand());
+
+                Database.setSantaBudget(annualChange.getNewSantaBudget());
+//            Pune new children
+//            Pune children Updates
+                for (Child child : Database.getDatabase().getChildren()) {
+                    ScoreStrategyFactory factory = new ScoreStrategyFactory();
+                    ScoreStrategy strategy = factory.createStrategy(child);
+                    strategy.getChildAverageScore(child);
+                }
+
+                invoker.execute(new SetAssignedBudgetCommand());
+                invoker.execute(new GiftDistributionCommand());
+                System.out.println(Database.getDatabase().getChildren());
+//            System.out.println(annualChange.getNewSantaBudget());
+            }
+        }
+>>>>>>> Stashed changes
     }
-}
