@@ -17,6 +17,12 @@ public final class InputGift {
         this.category = category;
     }
 
+    public InputGift(final InputGift inputGift) {
+        this.productName = inputGift.productName;
+        this.price = inputGift.price;
+        this.category = inputGift.category;
+    }
+
     public String getProductName() {
         return productName;
     }
@@ -31,10 +37,10 @@ public final class InputGift {
 
     @Override
     public String toString() {
-        return "{" +
-            "productName='" + productName + '\'' +
-            ", price=" + price +
-            ", category=" + category +
-            '}';
+        return "InputGift{" +
+                "productName='" + productName + '\'' +
+                ", price=" + price +
+                ", category=" + category +
+                '}';
     }
 }
