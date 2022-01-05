@@ -1,8 +1,14 @@
 package main;
 
 import Command.Command;
+import Command.Invoker;
+import Command.SetAssignedBudgetCommand;
+import Command.IncreaseAgeCommand;
+import Command.EliminateYoungAdultsCommand;
+import Command.GiftDistributionCommand;
 import checker.Checker;
 import common.Constants;
+import entertainment.Child;
 import entertainment.Database;
 import entertainment.ScoreStrategy;
 import entertainment.ScoreStrategyFactory;
@@ -54,7 +60,7 @@ public final class Main {
     }
     public static void action(final String filePath1,
                               final String filePath2) throws IOException {
-        InputReader inputReader = new InputReader("./tests/test16.json");
+        InputReader inputReader = new InputReader("./tests/test2.json");
         Input input = null;
         try {
             input = inputReader.readInput();
@@ -69,19 +75,42 @@ public final class Main {
         Database.getDatabase().transferAnnualChanges(input.getAnnualChanges());
         Database.setSantaBudget(input.getSantaBudget());
 
+        for (Child child : Database.getDatabase().getChildren()) {
+            ScoreStrategyFactory factory = new ScoreStrategyFactory();
+            ScoreStrategy strategy = factory.createStrategy(child);
+            strategy.getChildAverageScore(child);
+        }
 
 //        System.out.println(input);
 //        System.out.println(input.getAnnualChanges());
         System.out.println(Database.getSantaBudget());
-//        ScoreStrategyFactory factory = new ScoreStrategyFactory();
-//        ScoreStrategy strategy = factory.createStrategy(Database.getDatabase().getChildren().get(0));
-//        strategy.getChildAverageScore(Database.getDatabase().getChildren().get(0));
-        Database.getDatabase().setChildrenBudget();
+//        System.out.println(Database.getDatabase().getChildren());
+        Invoker invoker = new Invoker();
+        invoker.execute(new SetAssignedBudgetCommand());
+//        invoker.execute(new IncreaseAgeCommand());
+        invoker.execute(new EliminateYoungAdultsCommand());
+        invoker.execute(new GiftDistributionCommand());
+//        Database.getDatabase().setChildrenBudget();
         System.out.println(Database.getDatabase().getChildren());
 
 
-//        for (InputAnnualChange annualChange:input.getAnnualChanges()) {
+        for (InputAnnualChange annualChange : input.getAnnualChanges()) {
+            invoker.execute(new IncreaseAgeCommand());
+            invoker.execute(new EliminateYoungAdultsCommand());
+
+            Database.setSantaBudget(annualChange.getNewSantaBudget());
+//            Pune new children
+//            Pune children Updates
+            for (Child child : Database.getDatabase().getChildren()) {
+                ScoreStrategyFactory factory = new ScoreStrategyFactory();
+                ScoreStrategy strategy = factory.createStrategy(child);
+                strategy.getChildAverageScore(child);
+            }
+
+            invoker.execute(new SetAssignedBudgetCommand());
+            invoker.execute(new GiftDistributionCommand());
+            System.out.println(Database.getDatabase().getChildren());
 //            System.out.println(annualChange.getNewSantaBudget());
-//        }
+        }
     }
 }

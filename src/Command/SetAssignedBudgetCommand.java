@@ -3,11 +3,12 @@ package Command;
 import entertainment.Child;
 import entertainment.Database;
 
-public class SetAssignedBudgetCommand implements Command {
+public class SetAssignedBudgetCommand extends Command {
     public double getTotalScore() {
         double sum = 0.0;
         for (Child child:Database.getDatabase().getChildren()) {
-            sum += child.getAverageScore();
+            if (child.getAge() <= 18)
+                sum += child.getAverageScore();
         }
 
         return sum;
