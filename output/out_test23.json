@@ -6,11 +6,7 @@
       "firstName" : "Diana",
       "city" : "Bucuresti",
       "age" : 7,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Board Games", "Sweets", "Books", "Toys" ],
-=======
-      "giftsPreferences" : [ "Sweets", "Board Games", "Board Games", "Board Games", "Toys", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
       "assignedBudget" : 240.1304347826087,
@@ -190,11 +186,7 @@
       "firstName" : "Miruna",
       "city" : "Bucuresti",
       "age" : 11,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Toys", "Board Games", "Books" ],
-=======
-      "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 53.36231884057971,
@@ -213,11 +205,7 @@
       "firstName" : "Radu",
       "city" : "Timisoara",
       "age" : 7,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Books", "Sweets" ],
-=======
-      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Toys", "Books", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
       "assignedBudget" : 186.768115942029,
@@ -242,11 +230,7 @@
       "firstName" : "Diana",
       "city" : "Bucuresti",
       "age" : 8,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Board Games", "Sweets", "Books", "Toys" ],
-=======
-      "giftsPreferences" : [ "Sweets", "Board Games", "Board Games", "Board Games", "Toys", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
       "assignedBudget" : 83.75806451612904,
@@ -387,11 +371,7 @@
       "firstName" : "Miruna",
       "city" : "Bucuresti",
       "age" : 12,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Toys", "Board Games", "Books" ],
-=======
-      "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 18.612903225806452,
@@ -410,11 +390,7 @@
       "firstName" : "Radu",
       "city" : "Timisoara",
       "age" : 8,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Books", "Sweets" ],
-=======
-      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Toys", "Books", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
       "assignedBudget" : 65.14516129032258,
@@ -435,11 +411,7 @@
       "firstName" : "Diana",
       "city" : "Bucuresti",
       "age" : 9,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Board Games", "Sweets", "Books", "Toys" ],
-=======
-      "giftsPreferences" : [ "Sweets", "Board Games", "Board Games", "Board Games", "Toys", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
       "assignedBudget" : 318.63461538461536,
@@ -581,11 +553,7 @@
       "firstName" : "Miruna",
       "city" : "Bucuresti",
       "age" : 13,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Toys", "Board Games", "Books" ],
-=======
-      "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 70.8076923076923,
@@ -608,11 +576,7 @@
       "firstName" : "Radu",
       "city" : "Timisoara",
       "age" : 9,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Books", "Sweets" ],
-=======
-      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Toys", "Books", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
       "assignedBudget" : 247.82692307692307,
@@ -637,11 +601,7 @@
       "firstName" : "Diana",
       "city" : "Bucuresti",
       "age" : 10,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Board Games", "Sweets", "Books", "Toys" ],
-=======
-      "giftsPreferences" : [ "Sweets", "Board Games", "Board Games", "Board Games", "Toys", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
       "assignedBudget" : 86.93617021276596,
@@ -740,11 +700,7 @@
       "firstName" : "Miruna",
       "city" : "Bucuresti",
       "age" : 14,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Toys", "Board Games", "Books" ],
-=======
-      "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 19.319148936170212,
@@ -763,11 +719,7 @@
       "firstName" : "Radu",
       "city" : "Timisoara",
       "age" : 10,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Books", "Sweets" ],
-=======
-      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Toys", "Books", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
       "assignedBudget" : 67.61702127659574,
@@ -788,11 +740,7 @@
       "firstName" : "Diana",
       "city" : "Bucuresti",
       "age" : 11,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Board Games", "Sweets", "Books", "Toys" ],
-=======
-      "giftsPreferences" : [ "Sweets", "Board Games", "Board Games", "Board Games", "Toys", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
       "assignedBudget" : 87.12765957446808,
@@ -891,11 +839,7 @@
       "firstName" : "Miruna",
       "city" : "Bucuresti",
       "age" : 15,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Toys", "Board Games", "Books" ],
-=======
-      "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 19.361702127659573,
@@ -914,11 +858,7 @@
       "firstName" : "Radu",
       "city" : "Timisoara",
       "age" : 11,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Books", "Sweets" ],
-=======
-      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Toys", "Books", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
       "assignedBudget" : 67.7659574468085,
@@ -939,11 +879,7 @@
       "firstName" : "Diana",
       "city" : "Bucuresti",
       "age" : 12,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Board Games", "Sweets", "Books", "Toys" ],
-=======
-      "giftsPreferences" : [ "Sweets", "Board Games", "Board Games", "Board Games", "Toys", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
       "assignedBudget" : 51.40384615384615,
@@ -1019,11 +955,7 @@
       "firstName" : "Miruna",
       "city" : "Bucuresti",
       "age" : 16,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Toys", "Board Games", "Books" ],
-=======
-      "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 11.423076923076923,
@@ -1038,11 +970,7 @@
       "firstName" : "Radu",
       "city" : "Timisoara",
       "age" : 12,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Books", "Sweets" ],
-=======
-      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Toys", "Books", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.6666666666666665,
       "niceScoreHistory" : [ 7.0, 2.0 ],
       "assignedBudget" : 20.942307692307693,
@@ -1063,33 +991,19 @@
       "firstName" : "Diana",
       "city" : "Bucuresti",
       "age" : 13,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Board Games", "Sweets", "Books", "Toys" ],
-=======
-      "giftsPreferences" : [ "Sweets", "Board Games", "Board Games", "Board Games", "Toys", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
       "assignedBudget" : 477.9519230769231,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
-=======
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
-<<<<<<< HEAD
-=======
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
@@ -1169,16 +1083,11 @@
       "firstName" : "Miruna",
       "city" : "Bucuresti",
       "age" : 17,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Toys", "Board Games", "Books" ],
-=======
-      "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 106.21153846153847,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
@@ -1186,15 +1095,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-=======
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       } ]
     }, {
       "id" : 9,
@@ -1202,11 +1102,7 @@
       "firstName" : "Radu",
       "city" : "Timisoara",
       "age" : 13,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Books", "Sweets" ],
-=======
-      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Toys", "Books", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.6666666666666665,
       "niceScoreHistory" : [ 7.0, 2.0 ],
       "assignedBudget" : 194.72115384615384,
@@ -1235,33 +1131,19 @@
       "firstName" : "Diana",
       "city" : "Bucuresti",
       "age" : 14,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Board Games", "Sweets", "Books", "Toys" ],
-=======
-      "giftsPreferences" : [ "Sweets", "Board Games", "Board Games", "Board Games", "Toys", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
       "assignedBudget" : 671.7162162162161,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
-=======
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
-<<<<<<< HEAD
-=======
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
@@ -1318,33 +1200,19 @@
       "firstName" : "Miruna",
       "city" : "Bucuresti",
       "age" : 18,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Toys", "Board Games", "Books" ],
-=======
-      "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 149.27027027027026,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
       }, {
-=======
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
-<<<<<<< HEAD
-=======
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
@@ -1359,11 +1227,7 @@
       "firstName" : "Radu",
       "city" : "Timisoara",
       "age" : 14,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Books", "Sweets" ],
-=======
-      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Toys", "Books", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.6666666666666665,
       "niceScoreHistory" : [ 7.0, 2.0 ],
       "assignedBudget" : 273.66216216216213,
@@ -1392,33 +1256,19 @@
       "firstName" : "Diana",
       "city" : "Bucuresti",
       "age" : 15,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Board Games", "Sweets", "Books", "Toys" ],
-=======
-      "giftsPreferences" : [ "Sweets", "Board Games", "Board Games", "Board Games", "Toys", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
       "assignedBudget" : 730.9852941176471,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
-=======
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
-<<<<<<< HEAD
-=======
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
@@ -1475,11 +1325,7 @@
       "firstName" : "Radu",
       "city" : "Timisoara",
       "age" : 15,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Books", "Sweets" ],
-=======
-      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Toys", "Books", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.6666666666666665,
       "niceScoreHistory" : [ 7.0, 2.0 ],
       "assignedBudget" : 297.80882352941177,
@@ -1508,46 +1354,26 @@
       "firstName" : "Diana",
       "city" : "Bucuresti",
       "age" : 16,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Board Games", "Sweets", "Books", "Toys" ],
-=======
-      "giftsPreferences" : [ "Sweets", "Board Games", "Board Games", "Board Games", "Toys", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 9.0, 0.0 ],
       "assignedBudget" : 338.14285714285717,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-=======
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
       }, {
-<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
-=======
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-<<<<<<< HEAD
-=======
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       } ]
     }, {
       "id" : 3,
@@ -1601,11 +1427,7 @@
       "firstName" : "Radu",
       "city" : "Timisoara",
       "age" : 16,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Books", "Sweets" ],
-=======
-      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Toys", "Books", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.6666666666666665,
       "niceScoreHistory" : [ 7.0, 2.0 ],
       "assignedBudget" : 413.2857142857143,
@@ -1634,46 +1456,26 @@
       "firstName" : "Diana",
       "city" : "Bucuresti",
       "age" : 17,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Board Games", "Sweets", "Books", "Toys" ],
-=======
-      "giftsPreferences" : [ "Sweets", "Board Games", "Board Games", "Board Games", "Toys", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 9.0, 0.0 ],
       "assignedBudget" : 338.14285714285717,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-=======
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
       }, {
-<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
-=======
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-<<<<<<< HEAD
-=======
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       } ]
     }, {
       "id" : 3,
@@ -1727,11 +1529,7 @@
       "firstName" : "Radu",
       "city" : "Timisoara",
       "age" : 17,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Books", "Sweets" ],
-=======
-      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Toys", "Books", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.6666666666666665,
       "niceScoreHistory" : [ 7.0, 2.0 ],
       "assignedBudget" : 413.2857142857143,

@@ -11,12 +11,8 @@ public final class Constants {
     public static final Integer CHECKSTYLE_POINTS = 10;
     public static final Integer TESTS_NUMBER_SMALL = 15;
 
-<<<<<<< HEAD
-    public static final String OUT_PATH = "output/out_test";
-=======
     public static final String RESULT_PATH = "output/out_test";
 
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
     private Constants() {
         //constructor for checkstyle
     }

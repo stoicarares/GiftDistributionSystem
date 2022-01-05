@@ -52,11 +52,7 @@
       "firstName" : "Tudor",
       "city" : "Constanta",
       "age" : 4,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Sweets", "Technology", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Technology", "Sweets", "Toys", "Board Games" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 271.8181818181818,
@@ -237,11 +233,7 @@
       "firstName" : "Tudor",
       "city" : "Constanta",
       "age" : 5,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Sweets", "Technology", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Technology", "Sweets", "Toys", "Board Games" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 243.25423728813558,
@@ -426,38 +418,22 @@
       "firstName" : "Tudor",
       "city" : "Constanta",
       "age" : 6,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Sweets", "Technology", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Technology", "Sweets", "Toys", "Board Games" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 7.5,
       "niceScoreHistory" : [ 8.0, 7.0 ],
       "assignedBudget" : 277.4226804123711,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-=======
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
       }, {
-<<<<<<< HEAD
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
-=======
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Uno",
         "price" : 10.0,
@@ -612,16 +588,11 @@
       "firstName" : "Tudor",
       "city" : "Constanta",
       "age" : 7,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Sweets", "Technology", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Technology", "Sweets", "Toys", "Board Games" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 7.5,
       "niceScoreHistory" : [ 8.0, 7.0 ],
       "assignedBudget" : 109.41176470588235,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -633,15 +604,6 @@
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-=======
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       } ]
     }, {
       "id" : 3,
@@ -784,33 +746,19 @@
       "firstName" : "Tudor",
       "city" : "Constanta",
       "age" : 8,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Sweets", "Technology", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Technology", "Sweets", "Toys", "Board Games" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 7.5,
       "niceScoreHistory" : [ 8.0, 7.0 ],
       "assignedBudget" : 73.41176470588236,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
-=======
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
       }, {
-<<<<<<< HEAD
-=======
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
-      }, {
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
@@ -910,38 +858,22 @@
       "firstName" : "Tudor",
       "city" : "Constanta",
       "age" : 9,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Sweets", "Technology", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Technology", "Sweets", "Toys", "Board Games" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 7.5,
       "niceScoreHistory" : [ 8.0, 7.0 ],
       "assignedBudget" : 332.09302325581393,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-=======
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
       }, {
-<<<<<<< HEAD
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
-=======
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Uno",
         "price" : 10.0,

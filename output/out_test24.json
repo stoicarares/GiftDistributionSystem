@@ -217,11 +217,7 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 6,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Books", "Board Games", "Clothes", "Toys" ],
-=======
-      "giftsPreferences" : [ "Books", "Technology", "Clothes", "Board Games", "Toys" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
       "assignedBudget" : 85.19540229885058,
@@ -412,11 +408,7 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 7,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Books", "Board Games", "Clothes", "Toys" ],
-=======
-      "giftsPreferences" : [ "Books", "Technology", "Clothes", "Board Games", "Toys" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
       "assignedBudget" : 6.684210526315789,
@@ -647,11 +639,7 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 8,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Books", "Board Games", "Clothes", "Toys" ],
-=======
-      "giftsPreferences" : [ "Books", "Technology", "Clothes", "Board Games", "Toys" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
       "assignedBudget" : 102.94444444444444,
@@ -871,38 +859,22 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 9,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Books", "Board Games", "Clothes", "Toys" ],
-=======
-      "giftsPreferences" : [ "Books", "Technology", "Clothes", "Board Games", "Toys" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
       "assignedBudget" : 115.8125,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
-=======
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-<<<<<<< HEAD
         "productName" : "Dress",
         "price" : 45.0,
         "category" : "Clothes"
-=======
-        "productName" : "Diary of a Wimpy Kid",
-        "price" : 25.0,
-        "category" : "Books"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
@@ -1119,38 +1091,22 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 10,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Books", "Board Games", "Clothes", "Toys" ],
-=======
-      "giftsPreferences" : [ "Books", "Technology", "Clothes", "Board Games", "Toys" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 5.5,
       "niceScoreHistory" : [ 4.0, 7.0 ],
       "assignedBudget" : 155.59541984732826,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
-=======
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-<<<<<<< HEAD
         "productName" : "Dress",
         "price" : 45.0,
         "category" : "Clothes"
-=======
-        "productName" : "Diary of a Wimpy Kid",
-        "price" : 25.0,
-        "category" : "Books"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
@@ -1317,38 +1273,22 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 11,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Books", "Board Games", "Clothes", "Toys" ],
-=======
-      "giftsPreferences" : [ "Books", "Technology", "Clothes", "Board Games", "Toys" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 5.5,
       "niceScoreHistory" : [ 4.0, 7.0 ],
       "assignedBudget" : 201.81188118811883,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
-=======
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-<<<<<<< HEAD
         "productName" : "Dress",
         "price" : 45.0,
         "category" : "Clothes"
-=======
-        "productName" : "Diary of a Wimpy Kid",
-        "price" : 25.0,
-        "category" : "Books"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -1519,38 +1459,22 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 12,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Books", "Board Games", "Clothes", "Toys" ],
-=======
-      "giftsPreferences" : [ "Books", "Technology", "Clothes", "Board Games", "Toys" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 4.0, 7.0 ],
       "assignedBudget" : 218.0,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
-=======
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-<<<<<<< HEAD
         "productName" : "Dress",
         "price" : 45.0,
         "category" : "Clothes"
-=======
-        "productName" : "Diary of a Wimpy Kid",
-        "price" : 25.0,
-        "category" : "Books"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -1721,38 +1645,22 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 13,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Books", "Board Games", "Clothes", "Toys" ],
-=======
-      "giftsPreferences" : [ "Books", "Technology", "Clothes", "Board Games", "Toys" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 4.0, 7.0 ],
       "assignedBudget" : 218.0,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
-=======
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-<<<<<<< HEAD
         "productName" : "Dress",
         "price" : 45.0,
         "category" : "Clothes"
-=======
-        "productName" : "Diary of a Wimpy Kid",
-        "price" : 25.0,
-        "category" : "Books"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -1923,47 +1831,27 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 14,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Technology", "Books", "Board Games", "Clothes", "Toys" ],
-=======
-      "giftsPreferences" : [ "Books", "Technology", "Clothes", "Board Games", "Toys" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 4.0, 7.0, 6.0 ],
       "assignedBudget" : 218.0,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
       }, {
-=======
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
       }, {
-<<<<<<< HEAD
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-=======
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Dress",
         "price" : 45.0,
         "category" : "Clothes"
       }, {
-<<<<<<< HEAD
-=======
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
-      }, {
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"

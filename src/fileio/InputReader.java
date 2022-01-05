@@ -21,8 +21,4 @@ public final class InputReader {
         ObjectMapper objectMapper = new ObjectMapper();
         return objectMapper.readValue(file, Input.class);
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8

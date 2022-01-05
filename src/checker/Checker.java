@@ -81,11 +81,7 @@ public final class Checker {
         ObjectMapper mapper = new ObjectMapper();
 
         try {
-<<<<<<< HEAD
-            File outputFile = new File(Constants.OUT_PATH + testNumber
-=======
             File outputFile = new File(Constants.RESULT_PATH + testNumber
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
                     + Constants.FILE_EXTENSION);
             if (outputFile.exists()) {
                 JsonNode output = mapper.readTree(outputFile);

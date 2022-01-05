@@ -12,25 +12,6 @@ public class Input {
         return annualChanges;
     }
 
-    @Override
-    public String toString() {
-        return "Input{" +
-<<<<<<< HEAD
-                "numberOfYears=" + numberOfYears +
-                ", santaBudget=" + santaBudget +
-                ", initialData=" + initialData +
-                ", annualChanges=" + annualChanges +
-                '}';
-=======
-            "numberOfYears=" + numberOfYears +
-            ", santaBudget=" + santaBudget +
-            ", initialData=" + initialData +
-            ", annualChanges=" + annualChanges +
-            '}';
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
-    }
-
-
     public int getNumberOfYears() {
         return numberOfYears;
     }
@@ -43,8 +24,4 @@ public class Input {
         return initialData;
     }
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8

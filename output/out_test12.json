@@ -78,11 +78,7 @@
       "firstName" : "Tudor",
       "city" : "Craiova",
       "age" : 3,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Clothes", "Sweets", "Books" ],
-=======
-      "giftsPreferences" : [ "Clothes", "Sweets", "Clothes", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 134.11764705882354,
@@ -171,11 +167,7 @@
       "firstName" : "Tudor",
       "city" : "Craiova",
       "age" : 4,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Clothes", "Sweets", "Books" ],
-=======
-      "giftsPreferences" : [ "Clothes", "Sweets", "Clothes", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 134.11764705882354,
@@ -245,16 +237,11 @@
       "firstName" : "Tudor",
       "city" : "Craiova",
       "age" : 5,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Clothes", "Sweets", "Books" ],
-=======
-      "giftsPreferences" : [ "Clothes", "Sweets", "Clothes", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 5.0,
       "niceScoreHistory" : [ 6.0, 4.0 ],
       "assignedBudget" : 87.69230769230771,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Castle",
         "price" : 15.0,
         "category" : "Toys"
@@ -262,15 +249,6 @@
         "productName" : "Shoes",
         "price" : 70.0,
         "category" : "Clothes"
-=======
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Gummy Bears",
-        "price" : 10.0,
-        "category" : "Sweets"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       } ]
     } ]
   }, {
@@ -302,11 +280,7 @@
       "firstName" : "Tudor",
       "city" : "Craiova",
       "age" : 6,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Clothes", "Sweets", "Books" ],
-=======
-      "giftsPreferences" : [ "Clothes", "Sweets", "Clothes", "Toys", "Books" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 5.0,
       "niceScoreHistory" : [ 6.0, 4.0 ],
       "assignedBudget" : 0.0,

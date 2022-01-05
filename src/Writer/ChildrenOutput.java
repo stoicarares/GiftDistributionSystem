@@ -1,4 +1,4 @@
-package Writer;
+package writer;
 
 import entertainment.Child;
 import entertainment.Database;

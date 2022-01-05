@@ -36,24 +36,4 @@ public final class InputAnnualChange {
     public List<InputChildUpdate> getChildrenUpdates() {
         return childrenUpdates;
     }
-
-    @Override
-    public String toString() {
-        return "InputAnnualChange{" +
-<<<<<<< HEAD
-                "newSantaBudget=" + newSantaBudget +
-                ", newGifts=" + newGifts +
-                ", newChildren=" + newChildren +
-                ", childrenUpdates=" + childrenUpdates +
-                '}';
-    }
 }
-=======
-            "newSantaBudget=" + newSantaBudget +
-            ", newGifts=" + newGifts +
-            ", newChildren=" + newChildren +
-            ", childrenUpdates=" + childrenUpdates +
-            '}';
-    }
-}
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8

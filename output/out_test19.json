@@ -48,11 +48,7 @@
       "firstName" : "Tudor",
       "city" : "Bucuresti",
       "age" : 1,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Sweets", "Toys", "Clothes", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 4.0 ],
       "assignedBudget" : 360.9433962264151,
@@ -241,11 +237,7 @@
       "firstName" : "Tudor",
       "city" : "Bucuresti",
       "age" : 2,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Sweets", "Toys", "Clothes", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 4.0 ],
       "assignedBudget" : 118.04347826086956,
@@ -426,11 +418,7 @@
       "firstName" : "Tudor",
       "city" : "Bucuresti",
       "age" : 3,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Sweets", "Toys", "Clothes", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 4.0 ],
       "assignedBudget" : 91.95652173913044,
@@ -607,11 +595,7 @@
       "firstName" : "Tudor",
       "city" : "Bucuresti",
       "age" : 4,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Sweets", "Toys", "Clothes", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 4.0 ],
       "assignedBudget" : 175.11627906976744,
@@ -765,11 +749,7 @@
       "firstName" : "Tudor",
       "city" : "Bucuresti",
       "age" : 5,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Sweets", "Toys", "Clothes", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
       "assignedBudget" : 56.563380281690144,
@@ -927,11 +907,7 @@
       "firstName" : "Tudor",
       "city" : "Bucuresti",
       "age" : 6,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Sweets", "Toys", "Clothes", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
       "assignedBudget" : 196.2051282051282,
@@ -1097,11 +1073,7 @@
       "firstName" : "Tudor",
       "city" : "Bucuresti",
       "age" : 7,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Sweets", "Toys", "Clothes", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
       "assignedBudget" : 59.253112033195016,
@@ -1259,16 +1231,11 @@
       "firstName" : "Tudor",
       "city" : "Bucuresti",
       "age" : 8,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Sweets", "Toys", "Clothes", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 4.0, 10.0 ],
       "assignedBudget" : 310.2162162162162,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -1276,29 +1243,14 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-=======
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Shoes",
         "price" : 70.0,
         "category" : "Clothes"
       }, {
-<<<<<<< HEAD
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-=======
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Gummy Bears",
-        "price" : 10.0,
-        "category" : "Sweets"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       } ]
     }, {
       "id" : 3,
@@ -1453,16 +1405,11 @@
       "firstName" : "Tudor",
       "city" : "Bucuresti",
       "age" : 9,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Sweets", "Toys", "Clothes", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 4.0, 10.0 ],
       "assignedBudget" : 302.0526315789474,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -1470,29 +1417,14 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-=======
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Shoes",
         "price" : 70.0,
         "category" : "Clothes"
       }, {
-<<<<<<< HEAD
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-=======
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Gummy Bears",
-        "price" : 10.0,
-        "category" : "Sweets"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       } ]
     }, {
       "id" : 3,
@@ -1643,38 +1575,22 @@
       "firstName" : "Tudor",
       "city" : "Bucuresti",
       "age" : 10,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Sweets", "Toys", "Clothes", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 4.0, 10.0 ],
       "assignedBudget" : 72.94736842105263,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-=======
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
-<<<<<<< HEAD
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-=======
-        "productName" : "Gummy Bears",
-        "price" : 10.0,
-        "category" : "Sweets"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       } ]
     }, {
       "id" : 3,
@@ -1813,38 +1729,22 @@
       "firstName" : "Tudor",
       "city" : "Bucuresti",
       "age" : 11,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Sweets", "Toys", "Clothes", "Board Games" ],
-=======
-      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 4.0, 10.0 ],
       "assignedBudget" : 55.10526315789473,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-=======
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
-<<<<<<< HEAD
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-=======
-        "productName" : "Gummy Bears",
-        "price" : 10.0,
-        "category" : "Sweets"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       } ]
     }, {
       "id" : 3,

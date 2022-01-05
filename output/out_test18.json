@@ -6,11 +6,7 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 5,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Board Games", "Books", "Clothes" ],
-=======
-      "giftsPreferences" : [ "Books", "Board Games", "Toys", "Clothes" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 216.46153846153848,
@@ -54,11 +50,7 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 6,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Board Games", "Books", "Clothes" ],
-=======
-      "giftsPreferences" : [ "Books", "Board Games", "Toys", "Clothes" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 249.0,
@@ -79,11 +71,7 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 7,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Board Games", "Books", "Clothes" ],
-=======
-      "giftsPreferences" : [ "Books", "Board Games", "Toys", "Clothes" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 938.0,
@@ -108,38 +96,22 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 8,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Board Games", "Books", "Clothes" ],
-=======
-      "giftsPreferences" : [ "Books", "Board Games", "Toys", "Clothes" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 3.0, 5.0 ],
       "assignedBudget" : 938.0,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Castle",
         "price" : 15.0,
         "category" : "Toys"
-=======
-        "productName" : "Diary of a Wimpy Kid",
-        "price" : 25.0,
-        "category" : "Books"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Puzzle",
         "price" : 50.0,
         "category" : "Board Games"
       }, {
-<<<<<<< HEAD
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
-=======
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Handbag",
         "price" : 200.0,
@@ -153,38 +125,22 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 9,
-<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Board Games", "Books", "Clothes" ],
-=======
-      "giftsPreferences" : [ "Books", "Board Games", "Toys", "Clothes" ],
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 3.0, 5.0 ],
       "assignedBudget" : 1450.0,
       "receivedGifts" : [ {
-<<<<<<< HEAD
         "productName" : "Castle",
         "price" : 15.0,
         "category" : "Toys"
-=======
-        "productName" : "Diary of a Wimpy Kid",
-        "price" : 25.0,
-        "category" : "Books"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Puzzle",
         "price" : 50.0,
         "category" : "Board Games"
       }, {
-<<<<<<< HEAD
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
-=======
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
->>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       }, {
         "productName" : "Handbag",
         "price" : 200.0,
