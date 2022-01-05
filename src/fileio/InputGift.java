@@ -17,10 +17,17 @@ public final class InputGift {
         this.category = category;
     }
 
+<<<<<<< HEAD
     public InputGift(InputGift gift) {
         this.productName = gift.productName;
         this.price = gift.price;
         this.category = gift.category;
+=======
+    public InputGift(final InputGift inputGift) {
+        this.productName = inputGift.productName;
+        this.price = inputGift.price;
+        this.category = inputGift.category;
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
     }
 
     public String getProductName() {
@@ -37,10 +44,10 @@ public final class InputGift {
 
     @Override
     public String toString() {
-        return "{" +
-            "productName='" + productName + '\'' +
-            ", price=" + price +
-            ", category=" + category +
-            '}';
+        return "InputGift{" +
+                "productName='" + productName + '\'' +
+                ", price=" + price +
+                ", category=" + category +
+                '}';
     }
 }

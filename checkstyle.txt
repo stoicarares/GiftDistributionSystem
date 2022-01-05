@@ -1,9 +1,20 @@
 Starting audit...
+<<<<<<< HEAD
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\Command.java:1:9: Name 'Command' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\Command.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\EliminateYoungAdultsCommand.java:1:9: Name 'Command' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\EliminateYoungAdultsCommand.java:6:5: Class 'EliminateYoungAdultsCommand' looks like designed for extension (can be subclassed), but the method 'execute' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'EliminateYoungAdultsCommand' final or making the method 'execute' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\EliminateYoungAdultsCommand.java:9:72: '18' is a magic number. [MagicNumber]
+=======
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\Command.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\Command.java:1:9: Name 'Command' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\Command.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\EliminateYoungAdultsCommand.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\EliminateYoungAdultsCommand.java:1:9: Name 'Command' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\EliminateYoungAdultsCommand.java:6:5: Class 'EliminateYoungAdultsCommand' looks like designed for extension (can be subclassed), but the method 'execute' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'EliminateYoungAdultsCommand' final or making the method 'execute' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\EliminateYoungAdultsCommand.java:9:72: '18' is a magic number. [MagicNumber]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\GiftDistributionCommand.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\GiftDistributionCommand.java:1:9: Name 'Command' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\GiftDistributionCommand.java:14:5: Class 'GiftDistributionCommand' looks like designed for extension (can be subclassed), but the method 'buildGiftMap' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GiftDistributionCommand' final or making the method 'buildGiftMap' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\GiftDistributionCommand.java:14:5: Missing a Javadoc comment. [MissingJavadocMethod]
@@ -12,12 +23,25 @@ Starting audit...
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\GiftDistributionCommand.java:26:34: Parameter giftList should be final. [FinalParameters]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\GiftDistributionCommand.java:29:13: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\GiftDistributionCommand.java:36:5: Class 'GiftDistributionCommand' looks like designed for extension (can be subclassed), but the method 'execute' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GiftDistributionCommand' final or making the method 'execute' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+<<<<<<< HEAD
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\IncreaseAgeCommand.java:1:9: Name 'Command' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\IncreaseAgeCommand.java:7:5: Class 'IncreaseAgeCommand' looks like designed for extension (can be subclassed), but the method 'execute' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IncreaseAgeCommand' final or making the method 'execute' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+=======
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\GiftDistributionCommand.java:50: Line is longer than 100 characters (found 109). [LineLength]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\GiftDistributionCommand.java:55: Line is longer than 100 characters (found 118). [LineLength]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\IncreaseAgeCommand.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\IncreaseAgeCommand.java:1:9: Name 'Command' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\IncreaseAgeCommand.java:7:5: Class 'IncreaseAgeCommand' looks like designed for extension (can be subclassed), but the method 'execute' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IncreaseAgeCommand' final or making the method 'execute' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\Invoker.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\Invoker.java:1:9: Name 'Command' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\Invoker.java:8:5: Class 'Invoker' looks like designed for extension (can be subclassed), but the method 'execute' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Invoker' final or making the method 'execute' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\Invoker.java:8:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\Invoker.java:8:25: Parameter command should be final. [FinalParameters]
+<<<<<<< HEAD
+=======
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\SetAssignedBudgetCommand.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\SetAssignedBudgetCommand.java:1:9: Name 'Command' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\SetAssignedBudgetCommand.java:7:5: Class 'SetAssignedBudgetCommand' looks like designed for extension (can be subclassed), but the method 'getTotalScore' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SetAssignedBudgetCommand' final or making the method 'getTotalScore' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\SetAssignedBudgetCommand.java:7:5: Missing a Javadoc comment. [MissingJavadocMethod]
@@ -26,16 +50,26 @@ Starting audit...
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\SetAssignedBudgetCommand.java:17:5: Class 'SetAssignedBudgetCommand' looks like designed for extension (can be subclassed), but the method 'getBudgetUnit' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SetAssignedBudgetCommand' final or making the method 'getBudgetUnit' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\SetAssignedBudgetCommand.java:21:5: Class 'SetAssignedBudgetCommand' looks like designed for extension (can be subclassed), but the method 'execute' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SetAssignedBudgetCommand' final or making the method 'execute' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\UpdateChildrenCommand.java:1:9: Name 'Command' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+<<<<<<< HEAD
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\UpdateChildrenCommand.java:3:8: Unused import - writer.ChildrenOutput. [UnusedImports]
+=======
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\UpdateChildrenCommand.java:3:8: Unused import - Writer.ChildrenOutput. [UnusedImports]
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\UpdateChildrenCommand.java:8:8: Unused import - fileio.InputGift. [UnusedImports]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\UpdateChildrenCommand.java:15:34: Parameter childrenUpdates should be final. [FinalParameters]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\UpdateChildrenCommand.java:19:5: Class 'UpdateChildrenCommand' looks like designed for extension (can be subclassed), but the method 'execute' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UpdateChildrenCommand' final or making the method 'execute' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Command\UpdateChildrenCommand.java:24:17: 'if' construct must use '{}'s. [NeedBraces]
+<<<<<<< HEAD
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\BabyScoreStrategy.java:1: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\BabyScoreStrategy.java:5:5: Class 'BabyScoreStrategy' looks like designed for extension (can be subclassed), but the method 'getChildAverageScore' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BabyScoreStrategy' final or making the method 'getChildAverageScore' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\BabyScoreStrategy.java:6:38: Parameter child should be final. [FinalParameters]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\BabyScoreStrategy.java:7:31: '10.0' is a magic number. [MagicNumber]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Child.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+=======
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\BabyScoreStrategy.java:5:5: Class 'BabyScoreStrategy' looks like designed for extension (can be subclassed), but the method 'getChildAverageScore' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BabyScoreStrategy' final or making the method 'getChildAverageScore' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\BabyScoreStrategy.java:6:38: Parameter child should be final. [FinalParameters]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\BabyScoreStrategy.java:7:31: '10.0' is a magic number. [MagicNumber]
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Child.java:5:8: Unused import - fileio.InputChild. [UnusedImports]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Child.java:54:23: Parameter id should be final. [FinalParameters]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Child.java:62:29: Parameter lastName should be final. [FinalParameters]
@@ -58,6 +92,7 @@ Starting audit...
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Child.java:140:58: '+' should be on a new line. [OperatorWrap]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Child.java:141:54: '+' should be on a new line. [OperatorWrap]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Child.java:142:52: '+' should be on a new line. [OperatorWrap]
+<<<<<<< HEAD
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:3:14: Using the '.*' form of import should be avoided - fileio.*. [AvoidStarImport]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:21:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:28:5: Missing a Javadoc comment. [MissingJavadocMethod]
@@ -75,6 +110,26 @@ Starting audit...
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\KidScoreStrategy.java:5:5: Class 'KidScoreStrategy' looks like designed for extension (can be subclassed), but the method 'getChildAverageScore' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'KidScoreStrategy' final or making the method 'getChildAverageScore' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\KidScoreStrategy.java:6:38: Parameter child should be final. [FinalParameters]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\ScoreStrategy.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+=======
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:3:14: Using the '.*' form of import should be avoided - fileio.*. [AvoidStarImport]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:22:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:29:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:40:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:49:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:60:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:60:31: Parameter id should be final. [FinalParameters]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:70:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:74:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:77:13: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:77:35: '18' is a magic number. [MagicNumber]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:88:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:98:39: Parameter santaBudget should be final. [FinalParameters]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:120:20: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\Database.java:121:40: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\KidScoreStrategy.java:5:5: Class 'KidScoreStrategy' looks like designed for extension (can be subclassed), but the method 'getChildAverageScore' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'KidScoreStrategy' final or making the method 'getChildAverageScore' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\KidScoreStrategy.java:6:38: Parameter child should be final. [FinalParameters]
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\ScoreStrategy.java:4:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\ScoreStrategyFactory.java:1: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\ScoreStrategyFactory.java:3:8: Unused import - common.Constants. [UnusedImports]
@@ -84,6 +139,7 @@ Starting audit...
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\ScoreStrategyFactory.java:7:30: '5' is a magic number. [MagicNumber]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\ScoreStrategyFactory.java:9:37: '12' is a magic number. [MagicNumber]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\ScoreStrategyFactory.java:11:38: '18' is a magic number. [MagicNumber]
+<<<<<<< HEAD
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\TeenScoreStrategy.java:1: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\TeenScoreStrategy.java:5:5: Class 'TeenScoreStrategy' looks like designed for extension (can be subclassed), but the method 'getChildAverageScore' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TeenScoreStrategy' final or making the method 'getChildAverageScore' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\TeenScoreStrategy.java:6:38: Parameter child should be final. [FinalParameters]
@@ -124,16 +180,57 @@ Starting audit...
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChild.java:70:44: '+' should be on a new line. [OperatorWrap]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChild.java:71:58: '+' should be on a new line. [OperatorWrap]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChildUpdate.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+=======
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\TeenScoreStrategy.java:5:5: Class 'TeenScoreStrategy' looks like designed for extension (can be subclassed), but the method 'getChildAverageScore' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'TeenScoreStrategy' final or making the method 'getChildAverageScore' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\TeenScoreStrategy.java:6:38: Parameter child should be final. [FinalParameters]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\entertainment\YoungAdultScoreStrategy.java:5:38: Parameter child should be final. [FinalParameters]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InitialData.java:3:8: Unused import - com.fasterxml.jackson.annotation.JsonProperty. [UnusedImports]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InitialData.java:5:8: Unused import - java.util.ArrayList. [UnusedImports]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InitialData.java:18:31: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InitialData.java:19:36: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InitialData.java:20:50: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\Input.java:11:5: Class 'Input' looks like designed for extension (can be subclassed), but the method 'getAnnualChanges' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Input' final or making the method 'getAnnualChanges' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\Input.java:15:5: Class 'Input' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Input' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\Input.java:17:25: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\Input.java:18:46: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\Input.java:19:44: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\Input.java:20:44: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\Input.java:21:48: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\Input.java:26:5: Class 'Input' looks like designed for extension (can be subclassed), but the method 'getNumberOfYears' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Input' final or making the method 'getNumberOfYears' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\Input.java:30:5: Class 'Input' looks like designed for extension (can be subclassed), but the method 'getSantaBudget' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Input' final or making the method 'getSantaBudget' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\Input.java:34:5: Class 'Input' looks like designed for extension (can be subclassed), but the method 'getInitialData' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Input' final or making the method 'getInitialData' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputAnnualChange.java:42:37: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputAnnualChange.java:43:48: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputAnnualChange.java:44:38: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputAnnualChange.java:45:44: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputAnnualChange.java:46:52: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChild.java:6:8: Unused import - java.util.ArrayList. [UnusedImports]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChild.java:64:26: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChild.java:65:20: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChild.java:66:42: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChild.java:67:44: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChild.java:68:24: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChild.java:69:26: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChild.java:70:36: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChild.java:71:50: '+' should be on a new line. [OperatorWrap]
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChildUpdate.java:26:36: '+' should be on a new line. [OperatorWrap]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChildUpdate.java:27:28: '+' should be on a new line. [OperatorWrap]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChildUpdate.java:28:44: '+' should be on a new line. [OperatorWrap]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputChildUpdate.java:29:69: '+' should be on a new line. [OperatorWrap]
+<<<<<<< HEAD
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputGift.java:20:22: Parameter gift should be final. [FinalParameters]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputGift.java:40:20: '+' should be on a new line. [OperatorWrap]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputGift.java:41:50: '+' should be on a new line. [OperatorWrap]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputGift.java:42:32: '+' should be on a new line. [OperatorWrap]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputGift.java:43:38: '+' should be on a new line. [OperatorWrap]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputReader.java:1: File does not end with a newline. [NewlineAtEndOfFile]
+=======
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputGift.java:40:29: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputGift.java:41:50: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputGift.java:42:32: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputGift.java:43:38: '+' should be on a new line. [OperatorWrap]
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputReader.java:3:8: Unused import - com.fasterxml.jackson.core.type.TypeReference. [UnusedImports]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputReader.java:8:8: Unused import - java.util.ArrayList. [UnusedImports]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputReader.java:9:8: Unused import - java.util.List. [UnusedImports]
@@ -141,6 +238,7 @@ Starting audit...
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\fileio\InputReader.java:19:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\main\Main.java:23:8: Unused import - fileio.InputAnnualChange. [UnusedImports]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\main\Main.java:28:8: Unused import - javax.xml.crypto.Data. [UnusedImports]
+<<<<<<< HEAD
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\main\Main.java:49:29: Parameter args should be final. [FinalParameters]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\main\Main.java:52:9: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\main\Main.java:65:5: Missing a Javadoc comment. [MissingJavadocMethod]
@@ -161,3 +259,25 @@ Starting audit...
 [ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\writer\Writer.java:12:5: Class 'Writer' looks like designed for extension (can be subclassed), but the method 'getAnnaulChildren' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Writer' final or making the method 'getAnnaulChildren' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 Audit done.
 Checkstyle ends with 160 errors.
+=======
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\main\Main.java:35:8: Unused import - java.util.ArrayList. [UnusedImports]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\main\Main.java:36:8: Unused import - java.util.List. [UnusedImports]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\main\Main.java:52:29: Parameter args should be final. [FinalParameters]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\main\Main.java:55:9: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\main\Main.java:66:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\main\Main.java:81: Line is longer than 100 characters (found 104). [LineLength]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\main\Main.java:124:13: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\utils\Utils.java:3:8: Unused import - enums.Cities. [UnusedImports]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Writer\ChildrenOutput.java:1:9: Name 'Writer' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Writer\ChildrenOutput.java:13:5: Class 'ChildrenOutput' looks like designed for extension (can be subclassed), but the method 'transferChildren' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ChildrenOutput' final or making the method 'transferChildren' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Writer\ChildrenOutput.java:13:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Writer\ChildrenOutput.java:30:5: Class 'ChildrenOutput' looks like designed for extension (can be subclassed), but the method 'getChildren' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ChildrenOutput' final or making the method 'getChildren' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Writer\ChildrenOutput.java:34:5: Class 'ChildrenOutput' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ChildrenOutput' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Writer\ChildrenOutput.java:36:20: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Writer\ChildrenOutput.java:37:40: '+' should be on a new line. [OperatorWrap]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Writer\Writer.java:1:9: Name 'Writer' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Writer\Writer.java:3:8: Unused import - entertainment.Child. [UnusedImports]
+[ERROR] E:\Facultate\Anul2\POO\Proiect - SantaIsComming\SantaIsComming-Etapa1\.\src\Writer\Writer.java:11:5: Class 'Writer' looks like designed for extension (can be subclassed), but the method 'getAnnaulChildren' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Writer' final or making the method 'getAnnaulChildren' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+Audit done.
+Checkstyle ends with 157 errors.
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8

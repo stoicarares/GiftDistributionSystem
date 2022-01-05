@@ -14,5 +14,11 @@ public final class Utils {
             case ""
         }
     }
+<<<<<<< HEAD
      */
 }
+=======
+
+     */
+}
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8

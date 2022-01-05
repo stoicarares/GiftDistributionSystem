@@ -36,7 +36,11 @@
       "firstName" : "Miruna",
       "city" : "Timisoara",
       "age" : 16,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Sweets" ],
+=======
+      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Board Games", "Sweets" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
       "assignedBudget" : 124.9090909090909,
@@ -125,7 +129,11 @@
       "firstName" : "Miruna",
       "city" : "Timisoara",
       "age" : 17,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Sweets" ],
+=======
+      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Board Games", "Sweets" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
       "assignedBudget" : 269.1818181818182,
@@ -218,7 +226,11 @@
       "firstName" : "Miruna",
       "city" : "Timisoara",
       "age" : 18,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Sweets" ],
+=======
+      "giftsPreferences" : [ "Toys", "Toys", "Technology", "Board Games", "Sweets" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 4.333333333333333,
       "niceScoreHistory" : [ 9.0, 2.0 ],
       "assignedBudget" : 62.4,

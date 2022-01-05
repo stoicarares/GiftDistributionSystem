@@ -16,12 +16,22 @@ public final class InitialData {
     @Override
     public String toString() {
         return "InitialData{" +
+<<<<<<< HEAD
                 "children=" + children +
                 ", santaGiftsList=" + santaGiftsList +
                 '}';
+=======
+            "children=" + children +
+            ", santaGiftsList=" + santaGiftsList +
+            '}';
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
     }
 
     public List<InputGift> getSantaGiftsList() {
         return santaGiftsList;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8

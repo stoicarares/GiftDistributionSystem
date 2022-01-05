@@ -7,10 +7,11 @@ import java.util.List;
 
 public final class Database {
     private static Double santaBudget = 0.0;
-//    private final List<Double> santaBudgets = new ArrayList<>();
+    //    private final List<Double> santaBudgets = new ArrayList<>();
     private final List<Child> children = new ArrayList<>();
     private final List<InputGift> santaGiftsList = new ArrayList<>();
     private final List<InputAnnualChange> annualChanges = new ArrayList<>();;
+//    private final List<Child> giftedChildren = new ArrayList<>();
 
     private static Database database = null;
 
@@ -29,9 +30,9 @@ public final class Database {
         this.children.clear();
         for (InputChild child:inputChildren) {
             Child newChild = new Child(child.getId(), child.getLastName(),
-                                                child.getFirstName(), child.getAge(),
-                                                child.getCity(), child.getGiftsPreferences(),
-                                                child.getNiceScore());
+                    child.getFirstName(), child.getAge(),
+                    child.getCity(), child.getGiftsPreferences(),
+                    child.getNiceScore());
             this.children.add(newChild);
         }
     }
@@ -40,7 +41,7 @@ public final class Database {
         this.santaGiftsList.clear();
         for (InputGift gift:inputGifts) {
             InputGift newGift = new InputGift(gift.getProductName(), gift.getPrice(),
-                                            gift.getCategory());
+                    gift.getCategory());
             this.santaGiftsList.add(newGift);
         }
     }
@@ -49,9 +50,9 @@ public final class Database {
         this.annualChanges.clear();
         for (InputAnnualChange annualChange:inputAnnualChanges) {
             InputAnnualChange newAnnualChange = new InputAnnualChange(
-                            annualChange.getNewSantaBudget(),
-                            annualChange.getNewGifts(), annualChange.getNewChildren(),
-                            annualChange.getChildrenUpdates());
+                    annualChange.getNewSantaBudget(),
+                    annualChange.getNewGifts(), annualChange.getNewChildren(),
+                    annualChange.getChildrenUpdates());
             this.annualChanges.add(newAnnualChange);
         }
     }
@@ -102,6 +103,10 @@ public final class Database {
         return children;
     }
 
+//    public List<Child> getGiftedChildren() {
+//        return giftedChildren;
+//    }
+
     public List<InputGift> getSantaGiftsList() {
         return santaGiftsList;
     }
@@ -110,4 +115,10 @@ public final class Database {
         return annualChanges;
     }
 
+    @Override
+    public String toString() {
+        return "{" +
+                "children=" + children +
+                '}';
+    }
 }

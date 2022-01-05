@@ -25,7 +25,11 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 1,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Technology", "Sweets", "Toys" ],
+=======
+      "giftsPreferences" : [ "Sweets", "Technology", "Books", "Toys" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 388.42105263157896,
@@ -65,19 +69,33 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 2,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Technology", "Sweets", "Toys" ],
+=======
+      "giftsPreferences" : [ "Sweets", "Technology", "Books", "Toys" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 93.15789473684211,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"
@@ -109,19 +127,33 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 3,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Technology", "Sweets", "Toys" ],
+=======
+      "giftsPreferences" : [ "Sweets", "Technology", "Books", "Toys" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 388.42105263157896,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"
@@ -153,19 +185,33 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 4,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Technology", "Sweets", "Toys" ],
+=======
+      "giftsPreferences" : [ "Sweets", "Technology", "Books", "Toys" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 207.36842105263156,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"
@@ -197,19 +243,33 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 5,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Technology", "Sweets", "Toys" ],
+=======
+      "giftsPreferences" : [ "Sweets", "Technology", "Books", "Toys" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 388.42105263157896,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"

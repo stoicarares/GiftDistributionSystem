@@ -1,7 +1,6 @@
-package writer;
+package Writer;
 
 import entertainment.Child;
-import writer.ChildrenOutput;
 
 import java.util.ArrayList;
 import java.util.List;

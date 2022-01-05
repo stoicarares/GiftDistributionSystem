@@ -48,7 +48,11 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 9,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Toys", "Sweets" ],
+=======
+      "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 115.30434782608694,
@@ -90,7 +94,11 @@
       "firstName" : "Maria",
       "city" : "Timisoara",
       "age" : 6,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Books", "Sweets", "Board Games" ],
+=======
+      "giftsPreferences" : [ "Books", "Toys", "Sweets", "Board Games" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 230.60869565217388,
@@ -230,7 +238,11 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 10,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Toys", "Sweets" ],
+=======
+      "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 115.30434782608694,
@@ -272,7 +284,11 @@
       "firstName" : "Maria",
       "city" : "Timisoara",
       "age" : 7,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Books", "Sweets", "Board Games" ],
+=======
+      "giftsPreferences" : [ "Books", "Toys", "Sweets", "Board Games" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 230.60869565217388,
@@ -393,19 +409,33 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 11,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Toys", "Sweets" ],
+=======
+      "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 46.08333333333333,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -435,7 +465,11 @@
       "firstName" : "Maria",
       "city" : "Timisoara",
       "age" : 8,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Books", "Sweets", "Board Games" ],
+=======
+      "giftsPreferences" : [ "Books", "Toys", "Sweets", "Board Games" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 92.16666666666666,
@@ -552,19 +586,33 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 12,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Toys", "Sweets" ],
+=======
+      "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 62.34939759036145,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -594,7 +642,11 @@
       "firstName" : "Maria",
       "city" : "Timisoara",
       "age" : 9,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Books", "Sweets", "Board Games" ],
+=======
+      "giftsPreferences" : [ "Books", "Toys", "Sweets", "Board Games" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 124.6987951807229,
@@ -692,19 +744,33 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 13,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Toys", "Sweets" ],
+=======
+      "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 191.71084337349396,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -738,7 +804,11 @@
       "firstName" : "Maria",
       "city" : "Timisoara",
       "age" : 10,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Books", "Sweets", "Board Games" ],
+=======
+      "giftsPreferences" : [ "Books", "Toys", "Sweets", "Board Games" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 383.4216867469879,
@@ -836,19 +906,33 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 14,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Toys", "Sweets" ],
+=======
+      "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 66.0,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -882,7 +966,11 @@
       "firstName" : "Maria",
       "city" : "Timisoara",
       "age" : 11,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Books", "Sweets", "Board Games" ],
+=======
+      "giftsPreferences" : [ "Books", "Toys", "Sweets", "Board Games" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 132.0,
@@ -903,19 +991,33 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 15,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Toys", "Sweets" ],
+=======
+      "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 123.75,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -949,19 +1051,33 @@
       "firstName" : "Maria",
       "city" : "Timisoara",
       "age" : 12,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Books", "Sweets", "Board Games" ],
+=======
+      "giftsPreferences" : [ "Books", "Toys", "Sweets", "Board Games" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 247.5,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -978,19 +1094,33 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 16,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Toys", "Sweets" ],
+=======
+      "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 318.24,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -1024,19 +1154,33 @@
       "firstName" : "Maria",
       "city" : "Timisoara",
       "age" : 13,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Books", "Sweets", "Board Games" ],
+=======
+      "giftsPreferences" : [ "Books", "Toys", "Sweets", "Board Games" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 636.48,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -1053,19 +1197,33 @@
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
       "age" : 17,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Books", "Toys", "Sweets" ],
+=======
+      "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 318.24,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -1099,19 +1257,33 @@
       "firstName" : "Maria",
       "city" : "Timisoara",
       "age" : 14,
+<<<<<<< HEAD
       "giftsPreferences" : [ "Toys", "Books", "Sweets", "Board Games" ],
+=======
+      "giftsPreferences" : [ "Books", "Toys", "Sweets", "Board Games" ],
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 636.48,
       "receivedGifts" : [ {
+<<<<<<< HEAD
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
       }, {
+=======
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
       }, {
+<<<<<<< HEAD
+=======
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+>>>>>>> 13256612200098be0add51ec260c0b47d25d25d8
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
