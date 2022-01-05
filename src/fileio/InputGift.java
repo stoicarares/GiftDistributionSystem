@@ -38,9 +38,9 @@ public final class InputGift {
     @Override
     public String toString() {
         return "InputGift{" +
-            "productName='" + productName + '\'' +
-            ", price=" + price +
-            ", category=" + category +
-            '}';
+                "productName='" + productName + '\'' +
+                ", price=" + price +
+                ", category=" + category +
+                '}';
     }
 }
