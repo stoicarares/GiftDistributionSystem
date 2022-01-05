@@ -1,16 +1,19 @@
 package main;
 
-<<<<<<< Updated upstream
-import checker.Checker;
-=======
 import Command.Command;
 import Command.Invoker;
 import Command.SetAssignedBudgetCommand;
 import Command.IncreaseAgeCommand;
 import Command.EliminateYoungAdultsCommand;
 import Command.GiftDistributionCommand;
+import Command.UpdateChildrenCommand;
 
 import checker.Checker;
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.PropertyAccessor;
+import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
 import common.Constants;
 import entertainment.Child;
 import entertainment.Database;
@@ -19,16 +22,16 @@ import entertainment.ScoreStrategyFactory;
 import fileio.Input;
 import fileio.InputAnnualChange;
 import fileio.InputReader;
+import writer.ChildrenOutput;
+import writer.Writer;
 
 import javax.xml.crypto.Data;
 import java.io.File;
 import java.io.IOException;
-import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Objects;
->>>>>>> Stashed changes
 
 /**
  * Class used to run the code
@@ -43,10 +46,6 @@ public final class Main {
      * @param args
      *          the arguments used to call the main method
      */
-<<<<<<< Updated upstream
-    public static void main(final String[] args) {
-        Checker.calculateScore();
-=======
     public static void main(String[] args) throws IOException {
         File directory = new File("./tests");
         Path path = Paths.get("output");
@@ -56,20 +55,16 @@ public final class Main {
 
         File outputDirectory = new File("output");
 
-        action("./tests/tes16.json", "dadwa");
-//        for (File file : Objects.requireNonNull(directory.listFiles())) {
-//            String filepath = Constants.OUTPUT_PATH + file.getName();
-//            File out = new File(filepath);
-//            boolean isCreated = out.createNewFile();
-//            if (isCreated) {
-//                action(file.getAbsolutePath(), filepath);
-//            }
-//        }
-//        Checker.calculateScore();
+//        action("./tests/tes16.json", "dadwa");
+        for (File file : Objects.requireNonNull(directory.listFiles())) {
+            String filepath = Constants.OUTPUT_PATH + file.getName();
+            action(file.getAbsolutePath(), filepath);
+        }
+        Checker.calculateScore();
     }
     public static void action(final String filePath1,
                               final String filePath2) throws IOException {
-        InputReader inputReader = new InputReader("./tests/test2.json");
+        InputReader inputReader = new InputReader(filePath1);
         Input input = null;
         try {
             input = inputReader.readInput();
@@ -78,6 +73,8 @@ public final class Main {
         }
         assert input != null;
 
+        File outFile = new File(filePath2);
+        Writer writer = new Writer();
 //        Database.getDatabase().transferSantaBudgets(input.getAnnualChanges(), input.getSantaBudget());
         Database.getDatabase().transferChildren(input.getInitialData().getChildren());
         Database.getDatabase().transferGifts(input.getInitialData().getSantaGiftsList());
@@ -85,6 +82,7 @@ public final class Main {
         Database.setSantaBudget(input.getSantaBudget());
 
         for (Child child : Database.getDatabase().getChildren()) {
+            child.getReceivedGifts().clear();
             ScoreStrategyFactory factory = new ScoreStrategyFactory();
             ScoreStrategy strategy = factory.createStrategy(child);
             strategy.getChildAverageScore(child);
@@ -100,18 +98,29 @@ public final class Main {
         invoker.execute(new EliminateYoungAdultsCommand());
         invoker.execute(new GiftDistributionCommand());
 //        Database.getDatabase().setChildrenBudget();
-        System.out.println(Database.getDatabase().getChildren());
+        ChildrenOutput childrenOutput = new ChildrenOutput();
+        childrenOutput.transferChildren();
+        System.out.println("main -> " + childrenOutput.getChildren().get(0));
+//        System.out.println("...........");
+//        System.out.println(childrenOutput);
+        writer.getAnnaulChildren().add(childrenOutput);
+        System.out.println("writer -> " + writer.getAnnaulChildren().get(0));
 
 
 
-        for (InputAnnualChange annualChange:input.getAnnualChanges()) {
+        for (int i = 0; i < input.getNumberOfYears(); i++) {
             invoker.execute(new IncreaseAgeCommand());
             invoker.execute(new EliminateYoungAdultsCommand());
 
-            Database.setSantaBudget(annualChange.getNewSantaBudget());
+            Database.setSantaBudget(input.getAnnualChanges().get(i).getNewSantaBudget());
 //            Pune new children
 //            Pune children Updates
+            if (input.getAnnualChanges().get(i).getChildrenUpdates() != null)
+                invoker.execute(new UpdateChildrenCommand(input.getAnnualChanges().get(i)
+                        .getChildrenUpdates()));
+
             for (Child child : Database.getDatabase().getChildren()) {
+                child.getReceivedGifts().clear();
                 ScoreStrategyFactory factory = new ScoreStrategyFactory();
                 ScoreStrategy strategy = factory.createStrategy(child);
                 strategy.getChildAverageScore(child);
@@ -119,9 +128,22 @@ public final class Main {
 
             invoker.execute(new SetAssignedBudgetCommand());
             invoker.execute(new GiftDistributionCommand());
-            System.out.println(Database.getDatabase().getChildren());
+//            System.out.println(Database.getDatabase().getChildren());
+//            System.out.println(Database.getDatabase().getGiftedChildren());
+//            Database.getDatabase().getGiftedChildren().clear();
+//            writer.getAnnaulChildren().add(new ArrayList<>(Database.getDatabase().getChildren()));
+            ChildrenOutput newChildrenOutput = new ChildrenOutput();
+            newChildrenOutput.transferChildren();
+//            System.out.println(".***********");
+//            System.out.println(newChildrenOutput);
+            writer.getAnnaulChildren().add(newChildrenOutput);
+            System.out.println("writer for -> " + writer.getAnnaulChildren().get(0));
 //            System.out.println(annualChange.getNewSantaBudget());
         }
->>>>>>> Stashed changes
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.NONE);
+        objectMapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
+        ObjectWriter objectWriter = objectMapper.writer(new DefaultPrettyPrinter());
+        objectWriter.writeValue(outFile, writer);
     }
 }

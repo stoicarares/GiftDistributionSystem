@@ -17,6 +17,12 @@ public final class InputGift {
         this.category = category;
     }
 
+    public InputGift(InputGift gift) {
+        this.productName = gift.productName;
+        this.price = gift.price;
+        this.category = gift.category;
+    }
+
     public String getProductName() {
         return productName;
     }
