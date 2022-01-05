@@ -12,8 +12,8 @@ public final class Child {
     private Integer id;
     private String lastName;
     private String firstName;
-    private Integer age;
     private Cities city;
+    private Integer age;
     private List<Category> giftsPreferences;
     private Double averageScore;
     private List<Double> niceScoreHistory = new ArrayList<>();
@@ -32,6 +32,19 @@ public final class Child {
         this.giftsPreferences = giftsPreferences;
         this.averageScore = averageScore;
         this.niceScoreHistory.add(averageScore);
+    }
+
+    public Child(final Child child) {
+        this.id = child.id;
+        this.lastName = child.lastName;
+        this.firstName = child.firstName;
+        this.age = child.age;
+        this.city = child.city;
+        this.giftsPreferences = child.giftsPreferences;
+//        this.niceScoreHistory = child.niceScoreHistory;
+        this.averageScore = child.averageScore;
+        this.assignedBudget = child.assignedBudget;
+//        this.receivedGifts = child.receivedGifts;
     }
 
     public Integer getId() {
@@ -116,12 +129,12 @@ public final class Child {
 
     @Override
     public String toString() {
-        return "Child{" +
+        return "{" +
                 "id=" + id +
                 ", lastName='" + lastName + '\'' +
                 ", firstName='" + firstName + '\'' +
-                ", age=" + age +
                 ", city=" + city +
+                ", age=" + age +
                 ", giftsPreferences=" + giftsPreferences +
                 ", averageScore=" + averageScore +
                 ", niceScoreHistory=" + niceScoreHistory +

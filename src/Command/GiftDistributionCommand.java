@@ -44,8 +44,13 @@ public class GiftDistributionCommand extends Command {
                     List<InputGift> giftList = giftMap.get(category);
                     InputGift cheapestGift = getCheapest(giftList);
                     if (!child.getReceivedGifts().contains(cheapestGift)) {
+                        System.out.println(childBudget + "    " + cheapestGift.getPrice());
                         if ((childBudget - cheapestGift.getPrice()) > 0) {
+                            System.out.println(child.getId());
+                            System.out.println("in if -> " + childBudget + "    " + cheapestGift.getPrice());
+
                             child.getReceivedGifts().add(cheapestGift);
+//                            Database.getDatabase().getGiftedChildren().add(child);
                             childBudget -= cheapestGift.getPrice();
                             //                        Database.getDatabase().getSantaGiftsList().remove(cheapestGift);
                             //                        giftMap.get(category).remove(cheapestGift);

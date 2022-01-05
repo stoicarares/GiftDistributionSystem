@@ -11,6 +11,7 @@ public final class Database {
     private final List<Child> children = new ArrayList<>();
     private final List<InputGift> santaGiftsList = new ArrayList<>();
     private final List<InputAnnualChange> annualChanges = new ArrayList<>();;
+//    private final List<Child> giftedChildren = new ArrayList<>();
 
     private static Database database = null;
 
@@ -102,6 +103,10 @@ public final class Database {
         return children;
     }
 
+//    public List<Child> getGiftedChildren() {
+//        return giftedChildren;
+//    }
+
     public List<InputGift> getSantaGiftsList() {
         return santaGiftsList;
     }
@@ -110,4 +115,10 @@ public final class Database {
         return annualChanges;
     }
 
+    @Override
+    public String toString() {
+        return "{" +
+                "children=" + children +
+                '}';
+    }
 }
