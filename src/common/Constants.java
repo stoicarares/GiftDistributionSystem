@@ -12,6 +12,10 @@ public final class Constants {
     public static final Integer TESTS_NUMBER_SMALL = 15;
 
     public static final String RESULT_PATH = "output/out_test";
+    public static final Integer KID_AGE = 5;
+    public static final Integer TEEN_AGE = 12;
+    public static final Integer YOUNG_ADULT_AGE = 18;
+    public static final Double MAX_AVERAGE_SCORE = 10.0;
 
     private Constants() {
         //constructor for checkstyle

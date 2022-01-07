@@ -36,12 +36,15 @@ public final class InputGift {
         return category;
     }
 
-    @Override
-    public String toString() {
-        return "InputGift{" +
-                "productName='" + productName + '\'' +
-                ", price=" + price +
-                ", category=" + category +
-                '}';
+    public void setProductName(final String productName) {
+        this.productName = productName;
+    }
+
+    public void setPrice(final Double price) {
+        this.price = price;
+    }
+
+    public void setCategory(final Category category) {
+        this.category = category;
     }
 }

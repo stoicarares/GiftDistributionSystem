@@ -3,7 +3,6 @@ package fileio;
 import enums.Category;
 import enums.Cities;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public final class InputChild {
@@ -13,24 +12,8 @@ public final class InputChild {
     private String firstName;
     private Integer age;
     private Cities city;
-    private Double niceScore;
+    private double niceScore;
     private List<Category> giftsPreferences;
-
-    public InputChild() {
-
-    }
-
-    public InputChild(final Integer id, final String lastName, final String firstName,
-                      final Integer age, final Cities city, final Double niceScore,
-                      final List<Category> giftsPreferences) {
-        this.id = id;
-        this.lastName = lastName;
-        this.firstName = firstName;
-        this.age = age;
-        this.city = city;
-        this.niceScore = niceScore;
-        this.giftsPreferences = giftsPreferences;
-    }
 
     public Integer getId() {
         return id;
@@ -59,17 +42,32 @@ public final class InputChild {
     public List<Category> getGiftsPreferences() {
         return giftsPreferences;
     }
-    @Override
-    public String toString() {
-        return "InputChild{" +
-                "id=" + id +
-                ", lastName='" + lastName + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", age=" + age +
-                ", city=" + city +
-                ", niceScore=" + niceScore +
-                ", giftsPreferences=" + giftsPreferences +
-                '}';
+
+    public void setId(final Integer id) {
+        this.id = id;
     }
 
+    public void setLastName(final String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setFirstName(final String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setAge(final Integer age) {
+        this.age = age;
+    }
+
+    public void setCity(final Cities city) {
+        this.city = city;
+    }
+
+    public void setNiceScore(final Double niceScore) {
+        this.niceScore = niceScore;
+    }
+
+    public void setGiftsPreferences(final List<Category> giftsPreferences) {
+        this.giftsPreferences = giftsPreferences;
+    }
 }

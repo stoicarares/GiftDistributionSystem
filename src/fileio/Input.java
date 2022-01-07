@@ -1,12 +1,13 @@
 package fileio;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class Input {
+public final class Input {
     private int numberOfYears;
-    private Double santaBudget;
-    private InitialData initialData;
-    private List<InputAnnualChange> annualChanges;
+    private double santaBudget;
+    private InitialData initialData = new InitialData();
+    private ArrayList<InputAnnualChange> annualChanges = new ArrayList<>();
 
     public List<InputAnnualChange> getAnnualChanges() {
         return annualChanges;
@@ -24,4 +25,19 @@ public class Input {
         return initialData;
     }
 
+    public void setNumberOfYears(final int numberOfYears) {
+        this.numberOfYears = numberOfYears;
+    }
+
+    public void setSantaBudget(final Double santaBudget) {
+        this.santaBudget = santaBudget;
+    }
+
+    public void setInitialData(final InitialData initialData) {
+        this.initialData = initialData;
+    }
+
+    public void setAnnualChanges(final ArrayList<InputAnnualChange> annualChanges) {
+        this.annualChanges = annualChanges;
+    }
 }

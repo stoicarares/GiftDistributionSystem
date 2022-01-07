@@ -8,19 +8,6 @@ public final class InputAnnualChange {
     private List<InputChild> newChildren;
     private List<InputChildUpdate> childrenUpdates;
 
-    public InputAnnualChange() {
-
-    }
-
-    public InputAnnualChange(final Double newSantaBudget, final List<InputGift> newGifts,
-                             final List<InputChild> newChildren,
-                             final List<InputChildUpdate> childrenUpdates) {
-        this.newSantaBudget = newSantaBudget;
-        this.newGifts = newGifts;
-        this.newChildren = newChildren;
-        this.childrenUpdates = childrenUpdates;
-    }
-
     public Double getNewSantaBudget() {
         return newSantaBudget;
     }
@@ -35,5 +22,21 @@ public final class InputAnnualChange {
 
     public List<InputChildUpdate> getChildrenUpdates() {
         return childrenUpdates;
+    }
+
+    public void setNewSantaBudget(final Double newSantaBudget) {
+        this.newSantaBudget = newSantaBudget;
+    }
+
+    public void setNewGifts(final List<InputGift> newGifts) {
+        this.newGifts = newGifts;
+    }
+
+    public void setNewChildren(final List<InputChild> newChildren) {
+        this.newChildren = newChildren;
+    }
+
+    public void setChildrenUpdates(final List<InputChildUpdate> childrenUpdates) {
+        this.childrenUpdates = childrenUpdates;
     }
 }

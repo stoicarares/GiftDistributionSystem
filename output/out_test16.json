@@ -25,7 +25,7 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 1,
-      "giftsPreferences" : [ "Books", "Technology", "Sweets", "Toys" ],
+      "giftsPreferences" : [ "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 388.42105263157896,
@@ -65,18 +65,18 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 2,
-      "giftsPreferences" : [ "Books", "Technology", "Sweets", "Toys" ],
+      "giftsPreferences" : [ "Sweets", "Technology", "Books", "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 93.15789473684211,
       "receivedGifts" : [ {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
@@ -109,18 +109,18 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 3,
-      "giftsPreferences" : [ "Books", "Technology", "Sweets", "Toys" ],
+      "giftsPreferences" : [ "Sweets", "Technology", "Books", "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 388.42105263157896,
       "receivedGifts" : [ {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
@@ -153,18 +153,18 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 4,
-      "giftsPreferences" : [ "Books", "Technology", "Sweets", "Toys" ],
+      "giftsPreferences" : [ "Sweets", "Technology", "Books", "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 207.36842105263156,
       "receivedGifts" : [ {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
@@ -181,7 +181,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 349.5789473684211,
+      "assignedBudget" : 265.68,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
@@ -197,22 +197,37 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 5,
-      "giftsPreferences" : [ "Books", "Technology", "Sweets", "Toys" ],
+      "giftsPreferences" : [ "Sweets", "Technology", "Books", "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 388.42105263157896,
+      "assignedBudget" : 295.2,
       "receivedGifts" : [ {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
       }, {
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Stoica",
+      "firstName" : "Tudor",
+      "city" : "Brasov",
+      "age" : 7,
+      "giftsPreferences" : [ "Sweets" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 177.12,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
       } ]
     } ]
   } ]
