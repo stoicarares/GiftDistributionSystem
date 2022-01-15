@@ -15,5 +15,6 @@ public final class KidScoreStrategy implements ScoreStrategy {
         }
 
         child.setAverageScore(sum / child.getNiceScoreHistory().size());
+        child.giveNiceScoreBonus();
     }
 }

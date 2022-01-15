@@ -1,6 +1,7 @@
 package fileio;
 
 import enums.Category;
+import enums.ElvesType;
 
 import java.util.List;
 
@@ -8,6 +9,7 @@ public final class InputChildUpdate {
     private Integer id;
     private Double niceScore;
     private List<Category> giftsPreferences;
+    private ElvesType elf;
 
     public InputChildUpdate() {
 
@@ -25,6 +27,10 @@ public final class InputChildUpdate {
         this.giftsPreferences = giftsPreferences;
     }
 
+    public void setElf(final ElvesType elf) {
+        this.elf = elf;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -35,5 +41,9 @@ public final class InputChildUpdate {
 
     public List<Category> getGiftsPreferences() {
         return giftsPreferences;
+    }
+
+    public ElvesType getElf() {
+        return elf;
     }
 }

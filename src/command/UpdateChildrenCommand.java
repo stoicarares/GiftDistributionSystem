@@ -33,6 +33,9 @@ public final class UpdateChildrenCommand extends Command {
                                                                     .getGiftsPreferences());
                     child.getGiftsPreferences().addAll(0, hs);
                 }
+                if (inputChildUpdate.getElf() != null) {
+                    child.setElf(inputChildUpdate.getElf());
+                }
             }
         }
     }

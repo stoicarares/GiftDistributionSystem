@@ -39,7 +39,7 @@ public final class Database {
             Child newChild = new Child(child.getId(), child.getLastName(),
                     child.getFirstName(), child.getAge(),
                     child.getCity(), child.getGiftsPreferences(),
-                    child.getNiceScore());
+                    child.getNiceScore(), child.getNiceScoreBonus(), child.getElf());
             this.children.add(newChild);
         }
     }
@@ -52,7 +52,7 @@ public final class Database {
         this.santaGiftsList.clear();
         for (InputGift gift:inputGifts) {
             InputGift newGift = new InputGift(gift.getProductName(), gift.getPrice(),
-                    gift.getCategory());
+                    gift.getCategory(), gift.getQuantity());
             this.santaGiftsList.add(newGift);
         }
     }

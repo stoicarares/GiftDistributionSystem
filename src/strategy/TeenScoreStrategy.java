@@ -16,5 +16,6 @@ public final class TeenScoreStrategy implements ScoreStrategy {
 
         int size = child.getNiceScoreHistory().size();
         child.setAverageScore(sum / ((size * (size + 1)) / 2));
+        child.giveNiceScoreBonus();
     }
 }

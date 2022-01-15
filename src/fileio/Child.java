@@ -1,7 +1,9 @@
 package fileio;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import enums.Category;
 import enums.Cities;
+import enums.ElvesType;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,6 +16,8 @@ public final class Child {
     private Integer age;
     private List<Category> giftsPreferences = new ArrayList<>();
     private Double averageScore;
+    private double niceScoreBonus;
+    private ElvesType elf;
     private List<Double> niceScoreHistory = new ArrayList<>();
     private Double assignedBudget;
     private List<InputGift> receivedGifts = new ArrayList<>();
@@ -21,7 +25,7 @@ public final class Child {
 
     public Child(final Integer id, final String lastName, final String firstName,
                  final Integer age, final Cities city, final List<Category> giftsPreferences,
-                 final Double averageScore) {
+                 final Double averageScore, final Double niceScoreBonus, final ElvesType elf) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
@@ -30,6 +34,8 @@ public final class Child {
         this.giftsPreferences = giftsPreferences;
         this.averageScore = averageScore;
         this.niceScoreHistory.add(averageScore);
+        this.niceScoreBonus = niceScoreBonus;
+        this.elf = elf;
     }
 
     /**
@@ -44,6 +50,13 @@ public final class Child {
         this.city = child.city;
         this.averageScore = child.averageScore;
         this.assignedBudget = child.assignedBudget;
+    }
+
+    public void giveNiceScoreBonus() {
+        averageScore += averageScore * niceScoreBonus / 100;
+        if (averageScore > 10.0) {
+            averageScore = 10.0;
+        }
     }
 
     public Integer getId() {
@@ -124,5 +137,39 @@ public final class Child {
 
     public void setCity(final Cities city) {
         this.city = city;
+    }
+
+    public double getNiceScoreBonus() {
+        return niceScoreBonus;
+    }
+
+    public ElvesType getElf() {
+        return elf;
+    }
+
+    public void setNiceScoreBonus(final double niceScoreBonus) {
+        this.niceScoreBonus = niceScoreBonus;
+    }
+
+    public void setElf(final ElvesType elf) {
+        this.elf = elf;
+    }
+
+    @Override
+    public String toString() {
+        return "Child{" +
+                "id=" + id +
+                ", lastName='" + lastName + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", city=" + city +
+                ", age=" + age +
+                ", giftsPreferences=" + giftsPreferences +
+                ", averageScore=" + averageScore +
+                ", niceScoreBonus=" + niceScoreBonus +
+                ", elf=" + elf +
+                ", niceScoreHistory=" + niceScoreHistory +
+                ", assignedBudget=" + assignedBudget +
+                ", receivedGifts=" + receivedGifts +
+                '}';
     }
 }

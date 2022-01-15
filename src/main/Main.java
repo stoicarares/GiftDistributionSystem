@@ -4,7 +4,9 @@ import command.Invoker;
 import command.SetAssignedBudgetCommand;
 import command.IncreaseAgeCommand;
 import command.EliminateYoungAdultsCommand;
-import command.GiftDistributionCommand;
+import enums.CityStrategyEnum;
+import gifting.DistriburionByNiceScoreCity;
+import gifting.DistributionById;
 import command.UpdateChildrenCommand;
 import command.UpdateNewChildrenCommand;
 import command.UpdateNewGiftsCommand;
@@ -16,8 +18,14 @@ import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import common.Constants;
+import elves.BlackElf;
+import elves.Elf;
+import elves.PinkElf;
+import elves.YellowElf;
 import fileio.Child;
 import database.Database;
+import gifting.DistributionByNiceScore;
+import gifting.Gifter;
 import strategy.ScoreStrategy;
 import strategy.ScoreStrategyFactory;
 import fileio.Input;
@@ -52,17 +60,18 @@ public final class Main {
         Files.createDirectories(path);
         }
 
+//        action("./tests/test26.json", "out.txt");
+
         for (int i = 1; i <= Constants.TESTS_NUMBER; i++) {
             File file = new File(Constants.TESTS_PATH + Constants.TEST + i
                                     + Constants.FILE_EXTENSION);
-            String filepath = Constants.OUTPUT_PATH + file.getName();
+            String filepath = Constants.OUTPUT_PATH + i + Constants.FILE_EXTENSION;
             try {
                 action(file.getAbsolutePath(), filepath);
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
-
         Checker.calculateScore();
     }
 
@@ -86,6 +95,8 @@ public final class Main {
         File outFile = new File(filePath2);
         Writer writer = new Writer();
         Invoker invoker = new Invoker();
+        Gifter gifter = new Gifter();
+        Elf elf = new Elf();
 
 
         assert input != null;
@@ -117,7 +128,33 @@ public final class Main {
             }
 
             invoker.execute(new SetAssignedBudgetCommand());
-            invoker.execute(new GiftDistributionCommand());
+
+
+            elf.execute(new PinkElf());
+
+            elf.execute(new BlackElf());
+
+//            System.out.println(i);
+//            System.out.println(Database.getDatabase().getSantaGiftsList().toString());
+            if (i == 0) {
+                gifter.execute(new DistributionById());
+            } else {
+                if (input.getAnnualChanges().get(i - 1).getStrategy().equals(CityStrategyEnum.ID)) {
+                    gifter.execute(new DistributionById());
+                } else if (input.getAnnualChanges().get(i - 1).getStrategy()
+                        .equals(CityStrategyEnum.NICE_SCORE)) {
+                    gifter.execute(new DistributionByNiceScore());
+                } else if (input.getAnnualChanges().get(i - 1).getStrategy()
+                        .equals(CityStrategyEnum.NICE_SCORE_CITY)) {
+                    gifter.execute(new DistriburionByNiceScoreCity());
+                }
+            }
+//            System.out.println(Database.getDatabase().getSantaGiftsList().toString());
+//            System.out.println();
+//            gifter.execute(new DistriburionByNiceScoreCity());
+
+            elf.execute(new YellowElf());
+//            System.out.println(Database.getDatabase().getSantaGiftsList().toString());
 
             ChildrenOutput newChildrenOutput = new ChildrenOutput();
             newChildrenOutput.transferChildren();

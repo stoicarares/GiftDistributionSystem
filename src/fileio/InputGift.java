@@ -1,28 +1,32 @@
 package fileio;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import enums.Category;
 
 public final class InputGift {
     private String productName;
     private Double price;
     private Category category;
+    private int quantity;
 
     public InputGift() {
 
     }
 
-    public InputGift(final String productName, final Double price, final Category category) {
+    public InputGift(final String productName, final Double price, final Category category,
+                     final int quantity) {
         this.productName = productName;
         this.price = price;
         this.category = category;
+        this.quantity = quantity;
     }
 
     public InputGift(final InputGift gift) {
         this.category = gift .category;
         this.price = gift.price;
         this.productName = gift.productName;
+        this.quantity = gift.quantity;
     }
-
 
     public String getProductName() {
         return productName;
@@ -36,6 +40,10 @@ public final class InputGift {
         return category;
     }
 
+    public Integer getQuantity() {
+        return quantity;
+    }
+
     public void setProductName(final String productName) {
         this.productName = productName;
     }
@@ -46,5 +54,19 @@ public final class InputGift {
 
     public void setCategory(final Category category) {
         this.category = category;
+    }
+
+    public void setQuantity(final Integer quantity) {
+        this.quantity = quantity;
+    }
+
+    @Override
+    public String toString() {
+        return "InputGift{" +
+                "productName='" + productName + '\'' +
+                ", price=" + price +
+                ", category=" + category +
+                ", quantity=" + quantity +
+                '}';
     }
 }
