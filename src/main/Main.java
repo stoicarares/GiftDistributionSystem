@@ -32,8 +32,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Objects;
-
 
 public final class Main {
 
@@ -48,17 +46,23 @@ public final class Main {
      *          the arguments used to call the main method
      */
     public static void main(final String[] args) throws IOException {
-        File directory = new File("./tests");
-        Path path = Paths.get("output");
+        Path path = Paths.get(Constants.OUTPUT);
 
         if (!Files.exists(path)) {
         Files.createDirectories(path);
         }
 
-        for (File file : Objects.requireNonNull(directory.listFiles())) {
+        for (int i = 1; i <= Constants.TESTS_NUMBER; i++) {
+            File file = new File(Constants.TESTS_PATH + Constants.TEST + i
+                                    + Constants.FILE_EXTENSION);
             String filepath = Constants.OUTPUT_PATH + file.getName();
-            action(file.getAbsolutePath(), filepath);
+            try {
+                action(file.getAbsolutePath(), filepath);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
+
         Checker.calculateScore();
     }
 
