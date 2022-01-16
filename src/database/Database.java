@@ -30,16 +30,17 @@ public final class Database {
     }
 
     /**
-     * Method for transfering the children from the input into the database.
+     * Method for transfering the children from the input into the database
+     * using builder design pattern.
      * @param inputChildren List of children from the input
      */
     public void transferChildren(final List<InputChild> inputChildren) {
         this.children.clear();
         for (InputChild child:inputChildren) {
-            Child newChild = new Child(child.getId(), child.getLastName(),
-                    child.getFirstName(), child.getAge(),
-                    child.getCity(), child.getGiftsPreferences(),
-                    child.getNiceScore(), child.getNiceScoreBonus(), child.getElf());
+            Child newChild = new Child.Builder(child.getId(), child.getLastName(),
+                    child.getFirstName(), child.getCity(), child.getAge(),
+                    child.getNiceScore(), child.getGiftsPreferences(),
+                    child.getElf()).niceScoreBonusCount(child.getNiceScoreBonus()).build();
             this.children.add(newChild);
         }
     }

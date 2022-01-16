@@ -1,6 +1,5 @@
 package fileio;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import enums.Category;
 
 public final class InputGift {
@@ -58,15 +57,5 @@ public final class InputGift {
 
     public void setQuantity(final Integer quantity) {
         this.quantity = quantity;
-    }
-
-    @Override
-    public String toString() {
-        return "InputGift{" +
-                "productName='" + productName + '\'' +
-                ", price=" + price +
-                ", category=" + category +
-                ", quantity=" + quantity +
-                '}';
     }
 }

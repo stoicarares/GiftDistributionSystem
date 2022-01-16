@@ -1,6 +1,6 @@
 package main;
 
-import command.Invoker;
+import command.Santa;
 import command.SetAssignedBudgetCommand;
 import command.IncreaseAgeCommand;
 import command.EliminateYoungAdultsCommand;
@@ -60,8 +60,6 @@ public final class Main {
         Files.createDirectories(path);
         }
 
-//        action("./tests/test26.json", "out.txt");
-
         for (int i = 1; i <= Constants.TESTS_NUMBER; i++) {
             File file = new File(Constants.TESTS_PATH + Constants.TEST + i
                                     + Constants.FILE_EXTENSION);
@@ -94,7 +92,7 @@ public final class Main {
 
         File outFile = new File(filePath2);
         Writer writer = new Writer();
-        Invoker invoker = new Invoker();
+        Santa invoker = new Santa();
         Gifter gifter = new Gifter();
         Elf elf = new Elf();
 
@@ -128,33 +126,23 @@ public final class Main {
             }
 
             invoker.execute(new SetAssignedBudgetCommand());
-
-
             elf.execute(new PinkElf());
-
             elf.execute(new BlackElf());
 
-//            System.out.println(i);
-//            System.out.println(Database.getDatabase().getSantaGiftsList().toString());
             if (i == 0) {
                 gifter.execute(new DistributionById());
             } else {
-                if (input.getAnnualChanges().get(i - 1).getStrategy().equals(CityStrategyEnum.ID)) {
+                CityStrategyEnum cityStrategy = input.getAnnualChanges().get(i - 1).getStrategy();
+                if (cityStrategy.equals(CityStrategyEnum.ID)) {
                     gifter.execute(new DistributionById());
-                } else if (input.getAnnualChanges().get(i - 1).getStrategy()
-                        .equals(CityStrategyEnum.NICE_SCORE)) {
+                } else if (cityStrategy.equals(CityStrategyEnum.NICE_SCORE)) {
                     gifter.execute(new DistributionByNiceScore());
-                } else if (input.getAnnualChanges().get(i - 1).getStrategy()
-                        .equals(CityStrategyEnum.NICE_SCORE_CITY)) {
+                } else if (cityStrategy.equals(CityStrategyEnum.NICE_SCORE_CITY)) {
                     gifter.execute(new DistriburionByNiceScoreCity());
                 }
             }
-//            System.out.println(Database.getDatabase().getSantaGiftsList().toString());
-//            System.out.println();
-//            gifter.execute(new DistriburionByNiceScoreCity());
 
             elf.execute(new YellowElf());
-//            System.out.println(Database.getDatabase().getSantaGiftsList().toString());
 
             ChildrenOutput newChildrenOutput = new ChildrenOutput();
             newChildrenOutput.transferChildren();

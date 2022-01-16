@@ -1,6 +1,6 @@
 package fileio;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import common.Constants;
 import enums.Category;
 import enums.Cities;
 import enums.ElvesType;
@@ -14,18 +14,18 @@ public final class Child {
     private String firstName;
     private Cities city;
     private Integer age;
-    private List<Category> giftsPreferences = new ArrayList<>();
+    private List<Category> giftsPreferences;
     private Double averageScore;
     private double niceScoreBonus;
     private ElvesType elf;
-    private List<Double> niceScoreHistory = new ArrayList<>();
+    private List<Double> niceScoreHistory =  new ArrayList<>();
     private Double assignedBudget;
     private List<InputGift> receivedGifts = new ArrayList<>();
 
 
     public Child(final Integer id, final String lastName, final String firstName,
                  final Integer age, final Cities city, final List<Category> giftsPreferences,
-                 final Double averageScore, final Double niceScoreBonus, final ElvesType elf) {
+                 final Double averageScore, final ElvesType elf) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
@@ -34,28 +34,70 @@ public final class Child {
         this.giftsPreferences = giftsPreferences;
         this.averageScore = averageScore;
         this.niceScoreHistory.add(averageScore);
-        this.niceScoreBonus = niceScoreBonus;
         this.elf = elf;
     }
 
-    /**
-     * Constructor helping me at deep copy in forming the output
-     * @param child The new child formed
-     */
-    public Child(final Child child) {
-        this.id = child.id;
-        this.lastName = child.lastName;
-        this.firstName = child.firstName;
-        this.age = child.age;
-        this.city = child.city;
-        this.averageScore = child.averageScore;
-        this.assignedBudget = child.assignedBudget;
+    public static final class Builder {
+        private final Integer id;
+        private final String lastName;
+        private final String firstName;
+        private final Cities city;
+        private final Integer age;
+        private final Double niceScore;
+        private final List<Category> giftsPreferences;
+        private final ElvesType elf;
+        private double niceScoreBonus = 0;
+
+        public Builder(final Integer id, final String lastName, final String firstName,
+                       final Cities city, final Integer age, final Double niceScore,
+                       final List<Category> giftsPreferences, final ElvesType elf) {
+            this.id = id;
+            this.lastName = lastName;
+            this.firstName = firstName;
+            this.city = city;
+            this.age = age;
+            this.niceScore = niceScore;
+            this.giftsPreferences = giftsPreferences;
+            this.elf = elf;
+        }
+
+        /**
+         * Builder method for adding niceScoreBonus parameter
+         * @param bonusNiceScore Double value meaning cild's niceScoreBonus.
+         */
+        public Builder niceScoreBonusCount(final double bonusNiceScore) {
+            this.niceScoreBonus = bonusNiceScore;
+            return this;
+        }
+
+        /**
+         * Builder method for creating a new child
+         * @return A new instance of child.
+         */
+        public Child build() {
+            return new Child(this);
+        }
     }
 
+    private Child(final Builder builder) {
+        this.id = builder.id;
+        this.lastName = builder.lastName;
+        this.firstName = builder.firstName;
+        this.city = builder.city;
+        this.age = builder.age;
+        this.niceScoreHistory.add(builder.niceScore);
+        this.giftsPreferences = builder.giftsPreferences;
+        this.elf = builder.elf;
+        this.niceScoreBonus = builder.niceScoreBonus;
+    }
+
+    /**
+     * Method that gives a niceScoreBonus to a child's average score.
+     */
     public void giveNiceScoreBonus() {
-        averageScore += averageScore * niceScoreBonus / 100;
-        if (averageScore > 10.0) {
-            averageScore = 10.0;
+        averageScore += averageScore * niceScoreBonus / Constants.HUNDRED;
+        if (averageScore > Constants.MAX_AVERAGE_SCORE) {
+            averageScore = Constants.MAX_AVERAGE_SCORE;
         }
     }
 
@@ -147,29 +189,7 @@ public final class Child {
         return elf;
     }
 
-    public void setNiceScoreBonus(final double niceScoreBonus) {
-        this.niceScoreBonus = niceScoreBonus;
-    }
-
     public void setElf(final ElvesType elf) {
         this.elf = elf;
-    }
-
-    @Override
-    public String toString() {
-        return "Child{" +
-                "id=" + id +
-                ", lastName='" + lastName + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", city=" + city +
-                ", age=" + age +
-                ", giftsPreferences=" + giftsPreferences +
-                ", averageScore=" + averageScore +
-                ", niceScoreBonus=" + niceScoreBonus +
-                ", elf=" + elf +
-                ", niceScoreHistory=" + niceScoreHistory +
-                ", assignedBudget=" + assignedBudget +
-                ", receivedGifts=" + receivedGifts +
-                '}';
     }
 }

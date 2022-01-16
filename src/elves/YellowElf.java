@@ -6,7 +6,7 @@ import enums.ElvesType;
 import fileio.Child;
 import fileio.InputGift;
 
-public class YellowElf extends Command {
+public final class YellowElf extends ElfCommand {
     @Override
     public void execute() {
         for (Child child : Database.getDatabase().getChildren()) {
@@ -23,16 +23,11 @@ public class YellowElf extends Command {
                             }
                         }
                     }
-
                     if (cheapestGift != null) {
-                        System.out.println("fmm\n");
                         if (cheapestGift.getQuantity() > 0) {
                             child.getReceivedGifts().add(cheapestGift);
                             cheapestGift.setQuantity(cheapestGift.getQuantity() - 1);
                         }
-//                        if (cheapestGift.getQuantity() == 0) {
-//                            Database.getDatabase().getSantaGiftsList().remove(cheapestGift);
-//                        }
                     }
                 }
             }

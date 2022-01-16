@@ -1,7 +1,11 @@
 package elves;
 
-public class Elf {
-    public void execute(Command command) {
-        command.execute();
+public final class Elf {
+    /**
+     * Invoker's execute method for ElfCommands
+     * @param elfCommand the command to be executed
+     */
+    public void execute(final ElfCommand elfCommand) {
+        elfCommand.execute();
     }
 }

@@ -2,6 +2,7 @@ package gifting;
 
 import database.Database;
 import enums.Category;
+import fileio.Child;
 import fileio.InputGift;
 
 import java.util.ArrayList;
@@ -10,6 +11,9 @@ import java.util.List;
 import java.util.Map;
 
 public abstract class GiftCommand {
+    /**
+     * Abstract method for Command Design Pattern implementing gift distribution system.
+     */
     public abstract void execute();
 
     /**
@@ -45,5 +49,32 @@ public abstract class GiftCommand {
         }
 
         return cheapestGift;
+    }
+
+    /**
+     * Method for helping Santa to distribute the gifts to a child based on his preferences.
+     * @param child Child is going to be gifted
+     * @param giftMap The Santa's gifts list by their category
+     */
+    public void distributePreferedGifts(final Child child,
+                                        final Map<Category, List<InputGift>> giftMap) {
+        double childBudget = child.getAssignedBudget();
+        for (Category category : child.getGiftsPreferences()) {
+            if (giftMap.containsKey(category)) {
+                List<InputGift> giftList = giftMap.get(category);
+                giftList.removeIf(gift -> gift.getQuantity() <= 0);
+                InputGift cheapestGift = getCheapest(giftList);
+                if (cheapestGift != null
+                        && !child.getReceivedGifts().contains(cheapestGift)) {
+                    if ((childBudget - cheapestGift.getPrice()) > 0) {
+                        child.getReceivedGifts().add(cheapestGift);
+                        childBudget -= cheapestGift.getPrice();
+                        if (cheapestGift.getQuantity() > 0) {
+                            cheapestGift.setQuantity(cheapestGift.getQuantity() - 1);
+                        }
+                    }
+                }
+            }
+        }
     }
 }

@@ -26,10 +26,10 @@ public final class UpdateNewChildrenCommand extends Command {
         if (newChildren != null) {
             for (InputChild child : newChildren) {
                 if (child.getAge() <= Constants.YOUNG_ADULT_AGE) {
-                    Child newChild = new Child(child.getId(), child.getLastName(),
-                            child.getFirstName(), child.getAge(), child.getCity(),
-                            child.getGiftsPreferences(), child.getNiceScore(),
-                            child.getNiceScoreBonus(), child.getElf());
+                    Child newChild = new Child.Builder(child.getId(), child.getLastName(),
+                            child.getFirstName(), child.getCity(), child.getAge(),
+                            child.getNiceScore(), child.getGiftsPreferences(),
+                            child.getElf()).niceScoreBonusCount(child.getNiceScoreBonus()).build();
                     Database.getDatabase().getChildren().add(newChild);
                 }
             }

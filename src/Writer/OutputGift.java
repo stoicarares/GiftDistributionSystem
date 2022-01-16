@@ -3,7 +3,7 @@ package writer;
 import enums.Category;
 import fileio.InputGift;
 
-public class OutputGift {
+public final class OutputGift {
     private String productName;
     private Double price;
     private Category category;

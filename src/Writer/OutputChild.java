@@ -1,16 +1,13 @@
 package writer;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import enums.Category;
 import enums.Cities;
-import enums.ElvesType;
 import fileio.Child;
-import fileio.InputGift;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class OutputChild {
+public final class OutputChild {
     private Integer id;
     private String lastName;
     private String firstName;

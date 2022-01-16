@@ -3,7 +3,7 @@ package command;
 /**
  * The invoker for all the commands implemented
  */
-public final class Invoker {
+public final class Santa {
     /**
      * Method for executing a command,
      * @param command The command to be executed
