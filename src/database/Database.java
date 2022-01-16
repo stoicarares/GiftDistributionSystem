@@ -36,11 +36,19 @@ public final class Database {
      */
     public void transferChildren(final List<InputChild> inputChildren) {
         this.children.clear();
-        for (InputChild child:inputChildren) {
-            Child newChild = new Child.Builder(child.getId(), child.getLastName(),
-                    child.getFirstName(), child.getCity(), child.getAge(),
-                    child.getNiceScore(), child.getGiftsPreferences(),
-                    child.getElf()).niceScoreBonusCount(child.getNiceScoreBonus()).build();
+        for (InputChild child : inputChildren) {
+            Child newChild;
+            if (child.getNiceScoreBonus() != 0) {
+                newChild = new Child.Builder(child.getId(), child.getLastName(),
+                        child.getFirstName(), child.getCity(), child.getAge(),
+                        child.getNiceScore(), child.getGiftsPreferences(),
+                        child.getElf()).niceScoreBonusCount(child.getNiceScoreBonus()).build();
+            } else {
+                newChild = new Child.Builder(child.getId(), child.getLastName(),
+                        child.getFirstName(), child.getCity(), child.getAge(),
+                        child.getNiceScore(), child.getGiftsPreferences(),
+                        child.getElf()).build();
+            }
             this.children.add(newChild);
         }
     }

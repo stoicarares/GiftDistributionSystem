@@ -3,41 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/Command/Invoker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect1/command/UpdateNewChildrenCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/command/UpdateNewChildrenCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/common/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/common/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect1/database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/database/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/elves/BlackElf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/elves/BlackElf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/elves/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/elves/Elf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/elves/Elf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/elves/PinkElf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/elves/PinkElf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/elves/YellowElf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/elves/YellowElf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/fileio/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/fileio/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/fileio/InputGift.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/fileio/InputGift.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/gifting/DistriburionByNiceScoreCity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/gifting/DistriburionByNiceScoreCity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/gifting/DistributionById.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/gifting/DistributionById.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/gifting/DistributionByNiceScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/gifting/DistributionByNiceScore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/gifting/GiftCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/gifting/GiftCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/command/Invoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/Santa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/command/UpdateNewChildrenCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/UpdateNewChildrenCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elves/BlackElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elves/BlackElf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elves/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elves/ElfCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elves/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elves/Elf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elves/PinkElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elves/PinkElf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elves/YellowElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elves/YellowElf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fileio/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fileio/InputGift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/InputGift.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gifting/DistriburionByNiceScoreCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gifting/DistriburionByNiceScoreCity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gifting/DistributionById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gifting/DistributionById.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gifting/DistributionByNiceScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gifting/DistributionByNiceScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gifting/GiftCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gifting/GiftCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gifting/Gifter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gifting/Gifter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/writer/OutputChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/writer/OutputChild.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
